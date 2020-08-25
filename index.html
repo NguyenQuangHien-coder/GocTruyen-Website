@@ -6,16 +6,15 @@
     <link rel="stylesheet" href="./css/all.css">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <title>Document</title>
 </head>
 <body data-gr-c-s-loaded = "true" cz-shortcut-listen = "true" style="background-color: rgb(248, 249, 253);">
     <div id="header" class="row">
         <div id="header-top" class="row">
-            <div id="Logo" class="col-3">
-                <!-- <h1> -->
-                    <a href="index.html" class="logo">Doc truyen online</a>
-                <!-- </h1> -->
-                
+            <div id="Logo" class="col-3">   
+                    <a href="index.html" class="logo">Doc truyen online</a>     
             </div>
             <div id="Searchbar" class="col-5">
                 <div id="Search" class="input-group md-form form-sm form-2 pl-0">
@@ -42,879 +41,1187 @@
             </ul>
         </div>
     </div>
-<div class="container">
-<!-- DOC NHIEU NHAT -->
-    <div class="row">
-        <div class="col-md-8">
-            <div class="row">
-                <div class="col-md-12" style="margin: 0 0 10px 0; background-color: white;">
-                    <a href="#" style="color: rgb(66, 103, 178); font-size: 1.3rem; font-weight: bold;" title="Truyện Đọc Nhiều Nhất">Truyện Đọc Nhiều Nhất</a> <span>></span>
-                    <br>
-                    <div class="row">
-                        <!-- THẦN ĐẾ -->
-                        <div class="col-md-5 col-sm-12 border border-secondary-right">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="img/vancothande.jpg" alt="" style="width: 110px; height: 150px;">
-                                </div>
-                                <div class="col-md-6" style="padding: 0 0 0 30px;">
-                                    <a href="#" style="color: rgb(83, 83, 83); font-weight: bold;">Thần Đế</a>
-                                    <label style="font-size: 0.6rem;">Thể loại: Tiên hiệp, trọng sinh</label>
-                                    <button type="button" class="btn btn-danger" style="position: absolute; bottom: 5px; left: 30px;">Đọc Ngay</button>
-                                </div>
-                                <div class="col-md-2" style="padding: 0 0 0 10px;">
-                                    <div class="label__vip" style="height: 30%; background-color: rgb(222, 47, 27); text-align: center;">
-                                        <i class="far fa-gem" style="color: whitesmoke;"></i>
-                                        <label style="color: whitesmoke; font-size: 0.9rem; margin: 0;">VIP</label>
-                                    </div>
-                                    <div class="label__vip" style="height: 30%; background-color: rgb(59, 89, 152); text-align: center;">
-                                        <i class="far fa-eye" style="color: whitesmoke;"></i>
-                                        <div class="label__view" style="color: whitesmoke; font-size: 0.9rem; margin: 0;">212K</div>
-                                    </div>
-                                    <div class="label__vip" style="height: 40%; background-color: rgb(59, 89, 152); border-top: 1px solid rgb(158, 158, 158); text-align: center;">
-                                        <i class="fas fa-star" style="color: whitesmoke; margin: 10px;"></i>
-                                    </div>
-                                </div>
+<!-- <div class="w3-row" id="header">
+    <div class="w3-row header-top">
+        <div class="w3-col s12 m3 13 w3-hide-medium s3-hide-small">
+            <h1>
+                <a href="#" title="Đọc Truyện Online" class="logo">Doc truyen online</a>
+            </h1>
+        </div>
+        <div class="w3-col s12 15 search-bar">
+            <form id="formsearch" autocomplete="off" name="formsearch" action="https://goctruyen.com/actionsearch" method="GET"> 
+                <input id="txtsearch" class="w3-input search-input" aria-label="inputsearch" name="txtsearch" type="text" placeholder="Tìm kiếm truyện..." onkeyup="search()" required="required">
+                <button type="submit" aria-label="buttonsearch" name="go" id="btsubmit" class="w3-btn search-button">
+                    <span class="icsearch"></span>
+                </button> 
+                <div id="zme-autocomplete-results" class="search-autocomplete" style="display:none"></div>
+            </form>
+        </div>
+    </div>
+</div> -->
+<div class="w3-row container">
+<!-- MAIN -->
+    <div id="main" class="w3-col s12 m8 18">
+<!-- TRUYEN DOC NHIEU NHAT -->
+        <div class="main-module list-hot" style="margin: 0 0 10px 0; background-color: white;">
+            <div class="w3-row main-title">
+                <h2>
+                    <a href="#" title="Truyện Vip">Truyện Đọc Nhiều Nhất</a>
+                </h2>
+            </div>
+            <div class="w3-row main-content">
+                <!-- THẦN ĐẾ -->
+                <div class="w3-col s12 m6 l6 story">
+                        <div class="hotStory">
+                            <a href="#" title="Vạn Cổ Thần Đế">
+                                <img src="img/vancothande.jpg" alt="" width="113" height="157" class="story-thumb">
+                            </a>
+                            <div class="info">
+                                <h3 class="tittle">
+                                    <a href="#" title="Vạn Cổ Thần Đế">Vạn Cổ Thần Đế</a>
+                                </h3>
+                                <p>
+                                    Thể Loại:
+                                    <a href="#" title="Truyện Tiên Hiệp">Tiên Hiệp</a>
+                                    , 
+                                    <a href="#" title="Truyện Trọng Sinh">Trọng Sinh</a>
+                                </p>
+                                <a href="#" title="Vạn Cổ Thần Đế" class="read-now">Đọc Ngay</a>
+                            </div>
+                            <div class="meta">
+                                <p>
+                                    <i class="icon icon-vip"></i>
+                                    <span>VIP</span>
+                                </p>
+                                <p>
+                                    <i class="icon icon-eye"></i>
+                                    <label>227K</label>
+                                </p>
+                                <p>
+                                    <i class="icon icon-star"></i>
+                                </p>
                             </div>
                         </div>
-                    <div class="col-md-2"></div>
-                    <!-- CÔ VỢ HỢP ĐỒNG -->
-                    <div class="col-md-5 border border-secondary-right">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <img src="img/covohopdong.jpg" alt="" style="width: 110px; height: 150px;">
-                            </div>
-                            <div class="col-md-6" style="padding: 0 0 0 30px;">
-                                <a href="#" style="color: rgb(83, 83, 83); font-weight: bold;">Cô Vợ Hợp Đồng</a>
-                                <label style="font-size: 0.6rem;">Thể loại: Ngôn tình, sủng</label>
-                                <button type="button" class="btn btn-danger" style="position: absolute; bottom: 5px; left: 30px;">Đọc Ngay</button>
-                            </div>
-                            <div class="col-md-2" style="padding: 0 0 0 10px;">
-                                <div class="label__vip" style="height: 30%; background-color: rgb(222, 47, 27); text-align: center;">
-                                    <i class="far fa-gem" style="color: whitesmoke;"></i>
-                                    <label style="color: whitesmoke; font-size: 0.9rem; margin: 0;">VIP</label>
-                                </div>
-                                <div class="label__vip" style="height: 30%; background-color: rgb(59, 89, 152); text-align: center;">
-                                    <i class="far fa-eye" style="color: whitesmoke;"></i>
-                                    <div class="label__view" style="color: whitesmoke; font-size: 0.9rem; margin: 0;">212K</div>
-                                </div>
-                                <div class="label__vip" style="height: 40%; background-color: rgb(59, 89, 152); border-top: 1px solid rgb(158, 158, 158); text-align: center;">
-                                    <i class="fas fa-star" style="color: whitesmoke; margin: 10px;"></i>
-                                </div>
-                            </div>
+                </div>
+                <!-- CÔ VỢ HỢP ĐỒNG -->
+                <div class="w3-col s12 m6 l6 story">
+                    <div class="hotStory">
+                        <a href="#" title="Vạn Cổ Thần Đế">
+                            <img src="img/vancothande.jpg" alt="" width="113" height="157" class="story-thumb">
+                        </a>
+                        <div class="info">
+                            <h3 class="tittle">
+                                <a href="#" title="Vạn Cổ Thần Đế">Vạn Cổ Thần Đế</a>
+                            </h3>
+                            <p>
+                                Thể Loại:
+                                <a href="#" title="Truyện Tiên Hiệp">Tiên Hiệp</a>
+                                , 
+                                <a href="#" title="Truyện Trọng Sinh">Trọng Sinh</a>
+                            </p>
+                            <a href="#" title="Vạn Cổ Thần Đế" class="read-now">Đọc Ngay</a>
                         </div>
-                    </div>
-                    </div>
-                    <br>
-        <!-- VIP MOI row 1-->
-                    <a href="#" style="color: rgb(66, 103, 178); font-size: 1.3rem; font-weight: bold;">Truyện Vip Mới</a> <span>></span>
-                    <br>
-                    <div class="row">
-                        <!-- THẦN ĐẾ -->
-                        <div class="col-md-5 border border-secondary-right" style="background-color: rgb(245, 245, 245);">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="img/thande.jpg" alt="" style="width: 110px; height: 150px;">
-                                </div>
-                                <div class="col-md-1"></div>
-                                <div class="col-md-6">
-                                    <a href="#" style="color: rgb(83, 83, 83); font-weight: bold; padding: 0;">Thần Đế</a>
-                                    <label style="margin: 0;">Chương 1921</label>
-                                    <a href="#" style="color: rgb(73, 56, 150); padding: 0;">Tiên Hiệp</a>
-                                </div>
-                            </div>
-                        <div class="row">
-                            <div class="col-md" style="padding: 5px 0 5px 0; background-color:rgb(226, 222, 218)">
-                                <label style="padding: 10px 0 0 15px;">66,465 lượt xem</label>
-                                &nbsp;
-                                <span><button type="button" class="btn btn-danger">Đọc Ngay</button></span>
-                            </div>
-                        </div>
-                        </div>
-                    <!-- &nbsp; -->
-                    <div class="col-md-2"></div>
-                        <!-- CƠ TRƯỞNG -->
-                        <div class="col-md-5 border border-secondary-right" style="background-color: rgb(245, 245, 245);">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="img/cotruong.jpg" alt="" style="width: 110px; height: 150px;">
-                                </div>
-                                <div class="col-md-1"></div>
-                                <div class="col-md-6">
-                                    <a href="#" style="color: rgb(83, 83, 83); font-weight: bold; padding: 0;">Cơ Trưởng Vẫn Khỏe Chứ</a>
-                                    <label style="margin: 0;">Chương 384</label>
-                                    <a href="#" style="color: rgb(73, 56, 150); padding: 0;">Ngôn Tình, Sắc, Tiểu Thuyết</a>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md" style="padding: 5px 0 5px 0; background-color:rgb(226, 222, 218)">
-                                    <label style="padding: 10px 0 0 15px;">17915 lượt xem</label>
-                                    &nbsp;
-                                    <span><button type="button" class="btn btn-danger">Đọc Ngay</button></span>
-                                </div>
-                            </div>
+                        <div class="meta">
+                            <p>
+                                <i class="icon icon-vip"></i>
+                                <span>VIP</span>
+                            </p>
+                            <p>
+                                <i class="icon icon-eye"></i>
+                                <label>227K</label>
+                            </p>
+                            <p>
+                                <i class="icon icon-star"></i>
+                            </p>
                         </div>
                     </div>
-                    <br>
-        <!-- VIP MOI row 2 -->
-                    <div class="row">
-                        <!-- THẦN ĐẾ -->
-                        <div class="col-md-5 border border-secondary-right" style="background-color: rgb(245, 245, 245);">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="img/thande.jpg" alt="" style="width: 110px; height: 150px;">
-                                </div>
-                                <div class="col-md-1"></div>
-                                <div class="col-md-6">
-                                    <a href="#" style="color: rgb(83, 83, 83); font-weight: bold; padding: 0;">Thần Đế</a>
-                                    <label style="margin: 0;">Chương 1921</label>
-                                    <a href="#" style="color: rgb(73, 56, 150); padding: 0;">Tiên Hiệp</a>
-                                </div>
-                            </div>
-                        <div class="row">
-                            <div class="col-md" style="padding: 5px 0 5px 0; background-color:rgb(226, 222, 218)">
-                                <label style="padding: 10px 0 0 15px;">66,465 lượt xem</label>
-                                &nbsp;
-                                <span><button type="button" class="btn btn-danger">Đọc Ngay</button></span>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="col-md-2"></div>
-                        <!-- CƠ TRƯỞNG -->
-                        <div class="col-md-5 border border-secondary-right" style="background-color: rgb(245, 245, 245);">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="img/cotruong.jpg" alt="" style="width: 110px; height: 150px;">
-                                </div>
-                                <div class="col-md-1"></div>
-                                <div class="col-md-6">
-                                    <a href="#" style="color: rgb(83, 83, 83); font-weight: bold; padding: 0;">Cơ Trưởng Vẫn Khỏe Chứ</a>
-                                    <label style="margin: 0;">Chương 384</label>
-                                    <a href="#" style="color: rgb(73, 56, 150); padding: 0;">Ngôn Tình, Sắc, Tiểu Thuyết</a>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md" style="padding: 5px 0 5px 0; background-color:rgb(226, 222, 218)">
-                                    <label style="padding: 10px 0 0 15px;">17915 lượt xem</label>
-                                    &nbsp;
-                                    <span><button type="button" class="btn btn-danger">Đọc Ngay</button></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-        <!-- VIP MOI row 3 -->
-                    <br>
-                    <div class="row">
-                        <!-- THẦN ĐẾ -->
-                        <div class="col-md-5 border border-secondary-right" style="background-color: rgb(245, 245, 245);">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="img/thande.jpg" alt="" style="width: 110px; height: 150px;">
-                                </div>
-                                <div class="col-md-1"></div>
-                                <div class="col-md-6">
-                                    <a href="#" style="color: rgb(83, 83, 83); font-weight: bold; padding: 0;">Thần Đế</a>
-                                    <label style="margin: 0;">Chương 1921</label>
-                                    <a href="#" style="color: rgb(73, 56, 150); padding: 0;">Tiên Hiệp</a>
-                                </div>
-                            </div>
-                        <div class="row">
-                            <div class="col-md" style="padding: 5px 0 5px 0; background-color:rgb(226, 222, 218)">
-                                <label style="padding: 10px 0 0 15px;">66,465 lượt xem</label>
-                                &nbsp;
-                                <span><button type="button" class="btn btn-danger">Đọc Ngay</button></span>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="col-md-2"></div>
-                        <!-- CƠ TRƯỞNG -->
-                        <div class="col-md-5 border border-secondary-right" style="background-color: rgb(245, 245, 245);">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="img/cotruong.jpg" alt="" style="width: 110px; height: 150px;">
-                                </div>
-                                <div class="col-md-1"></div>
-                                <div class="col-md-6">
-                                    <a href="#" style="color: rgb(83, 83, 83); font-weight: bold; padding: 0;">Cơ Trưởng Vẫn Khỏe Chứ</a>
-                                    <label style="margin: 0;">Chương 384</label>
-                                    <a href="#" style="color: rgb(73, 56, 150); padding: 0;">Ngôn Tình, Sắc, Tiểu Thuyết</a>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md" style="padding: 5px 0 5px 0; background-color:rgb(226, 222, 218)">
-                                    <label style="padding: 10px 0 0 15px;">17915 lượt xem</label>
-                                    &nbsp;
-                                    <span><button type="button" class="btn btn-danger">Đọc Ngay</button></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-        <!-- VIP MOI row 4 -->
-                    <br>
-                    <div class="row">
-                        <!-- THẦN ĐẾ -->
-                        <div class="col-md-5 border border-secondary-right" style="background-color: rgb(245, 245, 245);">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="img/thande.jpg" alt="" style="width: 110px; height: 150px;">
-                                </div>
-                                <div class="col-md-1"></div>
-                                <div class="col-md-6">
-                                    <a href="#" style="color: rgb(83, 83, 83); font-weight: bold; padding: 0;">Thần Đế</a>
-                                    <label style="margin: 0;">Chương 1921</label>
-                                    <a href="#" style="color: rgb(73, 56, 150); padding: 0;">Tiên Hiệp</a>
-                                </div>
-                            </div>
-                        <div class="row">
-                            <div class="col-md" style="padding: 5px 0 5px 0; background-color:rgb(226, 222, 218)">
-                                <label style="padding: 10px 0 0 15px;">66,465 lượt xem</label>
-                                &nbsp;
-                                <span><button type="button" class="btn btn-danger">Đọc Ngay</button></span>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="col-md-2"></div>
-                        <!-- CƠ TRƯỞNG -->
-                        <div class="col-md-5 border border-secondary-right" style="background-color: rgb(245, 245, 245);">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="img/cotruong.jpg" alt="" style="width: 110px; height: 150px;">
-                                </div>
-                                <div class="col-md-1"></div>
-                                <div class="col-md-6">
-                                    <a href="#" style="color: rgb(83, 83, 83); font-weight: bold; padding: 0;">Cơ Trưởng Vẫn Khỏe Chứ</a>
-                                    <label style="margin: 0;">Chương 384</label>
-                                    <a href="#" style="color: rgb(73, 56, 150); padding: 0;">Ngôn Tình, Sắc, Tiểu Thuyết</a>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md" style="padding: 5px 0 5px 0; background-color:rgb(226, 222, 218)">
-                                    <label style="padding: 10px 0 0 15px;">17915 lượt xem</label>
-                                    &nbsp;
-                                    <span><button type="button" class="btn btn-danger">Đọc Ngay</button></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
                 </div>
             </div>
+        </div>
+<!-- TRUYEN VIP MOI -->
+        <div class="main-module list-update">
+            <div class="w3-row main-title">
+                <h2>
+                    <a href="#" title="Truyện Vip">Truyện Vip Mới</a>
+                </h2>
+            </div>
+            <div class="w3-row main-content">
+                <!-- VIP MOI row 1-->
+                <div class="w3-col s12 m6 16 story2">
+                    <div class="story2-inside">
+                        <a href="#" class="story-thumb" rel="nofollow" title="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                            <span class="bookmark"><i class="icon icon-vip"></i><span>VIP</span></span>
+                            <img src="https://goctruyen.com/public/frontend/images/medium/cotruongvankhoechu11rhkF1Fxn.jpg" alt="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                        </a>
+                        <div class="info">
+                            <h3 class="title">
+                                <a href="#" title="Cơ Trưởng Vẫn Khỏe Chứ">Cơ Trưởng Vẫn Khỏe Chứ</a>
+                            </h3>
+                            <p class="field">Chương 452</p>
+                            <p class="field">
+                                <a href="#" title="Truyện  Ngôn Tình">Ngôn Tình</a>
+                                , 
+                                <a href="#" title="Truyện Sắc">Sắc</a>
+                                , 
+                                <a href="#" title="Truyện Tiểu Thuyết">Tiểu Thuyết</a>
+                            </p>
+                        </div>
+                        <footer>
+                            <span>
+                                <a href="#" class="read-now" title="Truyện Cơ Trưởng Vẩn Khỏe Chứ!">Đọc Ngay</a>
+                            </span>
+                            19,818 lượt xem
+                        </footer>
+                    </div>
+                </div>
+                <div class="w3-col s12 m6 16 story2">
+                    <div class="story2-inside">
+                        <a href="#" class="story-thumb" rel="nofollow" title="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                            <span class="bookmark"><i class="icon icon-vip"></i><span>VIP</span></span>
+                            <img src="https://goctruyen.com/public/frontend/images/medium/cotruongvankhoechu11rhkF1Fxn.jpg" alt="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                        </a>
+                        <div class="info">
+                            <h3 class="title">
+                                <a href="#" title="Cơ Trưởng Vẫn Khỏe Chứ">Cơ Trưởng Vẫn Khỏe Chứ</a>
+                            </h3>
+                            <p class="field">Chương 452</p>
+                            <p class="field">
+                                <a href="#" title="Truyện  Ngôn Tình">Ngôn Tình</a>
+                                , 
+                                <a href="#" title="Truyện Sắc">Sắc</a>
+                                , 
+                                <a href="#" title="Truyện Tiểu Thuyết">Tiểu Thuyết</a>
+                            </p>
+                        </div>
+                        <footer>
+                            <span>
+                                <a href="#" class="read-now" title="Truyện Cơ Trưởng Vẩn Khỏe Chứ!">Đọc Ngay</a>
+                            </span>
+                            19,818 lượt xem
+                        </footer>
+                    </div>
+                </div>
+                <div class="w3-col s12 m6 16 story2">
+                    <div class="story2-inside">
+                        <a href="#" class="story-thumb" rel="nofollow" title="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                            <span class="bookmark"><i class="icon icon-vip"></i><span>VIP</span></span>
+                            <img src="https://goctruyen.com/public/frontend/images/medium/cotruongvankhoechu11rhkF1Fxn.jpg" alt="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                        </a>
+                        <div class="info">
+                            <h3 class="title">
+                                <a href="#" title="Cơ Trưởng Vẫn Khỏe Chứ">Cơ Trưởng Vẫn Khỏe Chứ</a>
+                            </h3>
+                            <p class="field">Chương 452</p>
+                            <p class="field">
+                                <a href="#" title="Truyện  Ngôn Tình">Ngôn Tình</a>
+                                , 
+                                <a href="#" title="Truyện Sắc">Sắc</a>
+                                , 
+                                <a href="#" title="Truyện Tiểu Thuyết">Tiểu Thuyết</a>
+                            </p>
+                        </div>
+                        <footer>
+                            <span>
+                                <a href="#" class="read-now" title="Truyện Cơ Trưởng Vẩn Khỏe Chứ!">Đọc Ngay</a>
+                            </span>
+                            19,818 lượt xem
+                        </footer>
+                    </div>
+                </div>
+                <div class="w3-col s12 m6 16 story2">
+                    <div class="story2-inside">
+                        <a href="#" class="story-thumb" rel="nofollow" title="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                            <span class="bookmark"><i class="icon icon-vip"></i><span>VIP</span></span>
+                            <img src="https://goctruyen.com/public/frontend/images/medium/cotruongvankhoechu11rhkF1Fxn.jpg" alt="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                        </a>
+                        <div class="info">
+                            <h3 class="title">
+                                <a href="#" title="Cơ Trưởng Vẫn Khỏe Chứ">Cơ Trưởng Vẫn Khỏe Chứ</a>
+                            </h3>
+                            <p class="field">Chương 452</p>
+                            <p class="field">
+                                <a href="#" title="Truyện  Ngôn Tình">Ngôn Tình</a>
+                                , 
+                                <a href="#" title="Truyện Sắc">Sắc</a>
+                                , 
+                                <a href="#" title="Truyện Tiểu Thuyết">Tiểu Thuyết</a>
+                            </p>
+                        </div>
+                        <footer>
+                            <span>
+                                <a href="#" class="read-now" title="Truyện Cơ Trưởng Vẩn Khỏe Chứ!">Đọc Ngay</a>
+                            </span>
+                            19,818 lượt xem
+                        </footer>
+                    </div>
+                </div>
+                <div class="w3-col s12 m6 16 story2">
+                    <div class="story2-inside">
+                        <a href="#" class="story-thumb" rel="nofollow" title="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                            <span class="bookmark"><i class="icon icon-vip"></i><span>VIP</span></span>
+                            <img src="https://goctruyen.com/public/frontend/images/medium/cotruongvankhoechu11rhkF1Fxn.jpg" alt="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                        </a>
+                        <div class="info">
+                            <h3 class="title">
+                                <a href="#" title="Cơ Trưởng Vẫn Khỏe Chứ">Cơ Trưởng Vẫn Khỏe Chứ</a>
+                            </h3>
+                            <p class="field">Chương 452</p>
+                            <p class="field">
+                                <a href="#" title="Truyện  Ngôn Tình">Ngôn Tình</a>
+                                , 
+                                <a href="#" title="Truyện Sắc">Sắc</a>
+                                , 
+                                <a href="#" title="Truyện Tiểu Thuyết">Tiểu Thuyết</a>
+                            </p>
+                        </div>
+                        <footer>
+                            <span>
+                                <a href="#" class="read-now" title="Truyện Cơ Trưởng Vẩn Khỏe Chứ!">Đọc Ngay</a>
+                            </span>
+                            19,818 lượt xem
+                        </footer>
+                    </div>
+                </div>
+                <div class="w3-col s12 m6 16 story2">
+                    <div class="story2-inside">
+                        <a href="#" class="story-thumb" rel="nofollow" title="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                            <span class="bookmark"><i class="icon icon-vip"></i><span>VIP</span></span>
+                            <img src="https://goctruyen.com/public/frontend/images/medium/cotruongvankhoechu11rhkF1Fxn.jpg" alt="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                        </a>
+                        <div class="info">
+                            <h3 class="title">
+                                <a href="#" title="Cơ Trưởng Vẫn Khỏe Chứ">Cơ Trưởng Vẫn Khỏe Chứ</a>
+                            </h3>
+                            <p class="field">Chương 452</p>
+                            <p class="field">
+                                <a href="#" title="Truyện  Ngôn Tình">Ngôn Tình</a>
+                                , 
+                                <a href="#" title="Truyện Sắc">Sắc</a>
+                                , 
+                                <a href="#" title="Truyện Tiểu Thuyết">Tiểu Thuyết</a>
+                            </p>
+                        </div>
+                        <footer>
+                            <span>
+                                <a href="#" class="read-now" title="Truyện Cơ Trưởng Vẩn Khỏe Chứ!">Đọc Ngay</a>
+                            </span>
+                            19,818 lượt xem
+                        </footer>
+                    </div>
+                </div>
+                <div class="w3-col s12 m6 16 story2">
+                    <div class="story2-inside">
+                        <a href="#" class="story-thumb" rel="nofollow" title="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                            <span class="bookmark"><i class="icon icon-vip"></i><span>VIP</span></span>
+                            <img src="https://goctruyen.com/public/frontend/images/medium/cotruongvankhoechu11rhkF1Fxn.jpg" alt="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                        </a>
+                        <div class="info">
+                            <h3 class="title">
+                                <a href="#" title="Cơ Trưởng Vẫn Khỏe Chứ">Cơ Trưởng Vẫn Khỏe Chứ</a>
+                            </h3>
+                            <p class="field">Chương 452</p>
+                            <p class="field">
+                                <a href="#" title="Truyện  Ngôn Tình">Ngôn Tình</a>
+                                , 
+                                <a href="#" title="Truyện Sắc">Sắc</a>
+                                , 
+                                <a href="#" title="Truyện Tiểu Thuyết">Tiểu Thuyết</a>
+                            </p>
+                        </div>
+                        <footer>
+                            <span>
+                                <a href="#" class="read-now" title="Truyện Cơ Trưởng Vẩn Khỏe Chứ!">Đọc Ngay</a>
+                            </span>
+                            19,818 lượt xem
+                        </footer>
+                    </div>
+                </div>
+                <div class="w3-col s12 m6 16 story2">
+                    <div class="story2-inside">
+                        <a href="#" class="story-thumb" rel="nofollow" title="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                            <span class="bookmark"><i class="icon icon-vip"></i><span>VIP</span></span>
+                            <img src="https://goctruyen.com/public/frontend/images/medium/cotruongvankhoechu11rhkF1Fxn.jpg" alt="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                        </a>
+                        <div class="info">
+                            <h3 class="title">
+                                <a href="#" title="Cơ Trưởng Vẫn Khỏe Chứ">Cơ Trưởng Vẫn Khỏe Chứ</a>
+                            </h3>
+                            <p class="field">Chương 452</p>
+                            <p class="field">
+                                <a href="#" title="Truyện  Ngôn Tình">Ngôn Tình</a>
+                                , 
+                                <a href="#" title="Truyện Sắc">Sắc</a>
+                                , 
+                                <a href="#" title="Truyện Tiểu Thuyết">Tiểu Thuyết</a>
+                            </p>
+                        </div>
+                        <footer>
+                            <span>
+                                <a href="#" class="read-now" title="Truyện Cơ Trưởng Vẩn Khỏe Chứ!">Đọc Ngay</a>
+                            </span>
+                            19,818 lượt xem
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
 <!-- TRUYEN HOT TRONG NGAY -->
-            <div class="row">
-                <div class="col-md-12" style="margin: 0 0 10px 0; background-color: white;">
-                    <label style="color: rgb(59, 59, 59); font-size: 1.3rem; font-weight: bold;">Truyện Hot Trong Ngày</label> <span>></span>
-                    <br>
-                    <div class="row">
-                        <table class="table table-bordered">
-                            <thead>
-                            <tr>
-                                <th scope="col"><span>> </span>Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy <span><i class="fas fa-star"></i></span></th>
-                                <td scope="col">Ngôn Tình</td>
-                            </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="col"><span>> </span>Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy <span><i class="fas fa-star"></i></span></th>
-                                    <td scope="col">Ngôn Tình</td>
-                                </tr>
-                            <tr>
-                                <th scope="col"><span>> </span>Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy <span><i class="fas fa-star"></i></span></th>
-                                <td scope="col">Ngôn Tình</td>
-                            </tr>
-                            <tr>
-                                <th scope="col"><span>> </span>Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy <span><i class="fas fa-star"></i></span></th>
-                                <td scope="col">Ngôn Tình</td>
-                            </tr>
-                            <tr>
-                                <th scope="col"><span>> </span>Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy <span><i class="fas fa-star"></i></span></th>
-                                <td scope="col">Ngôn Tình</td>
-                            </tr>
-                            <tr>
-                                <th scope="col"><span>> </span>Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy <span><i class="fas fa-star"></i></span></th>
-                                <td scope="col">Ngôn Tình</td>
-                            </tr>
-                            <tr>
-                                <th scope="col"><span>> </span>Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy <span><i class="fas fa-star"></i></span></th>
-                                <td scope="col">Ngôn Tình</td>
-                            </tr>
-                            <tr>
-                                <th scope="col"><span>> </span>Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy <span><i class="fas fa-star"></i></span></th>
-                                <td scope="col">Ngôn Tình</td>
-                            </tr>
-                            <tr>
-                                <th scope="col"><span>> </span>Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy <span><i class="fas fa-star"></i></span></th>
-                                <td scope="col">Ngôn Tình</td>
-                            </tr>
-                            <tr>
-                                <th scope="col"><span>> </span>Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy <span><i class="fas fa-star"></i></span></th>
-                                <td scope="col">Ngôn Tình</td>
-                            </tr>
-                            </tbody>
-                        </table>
+        <div class="main-module hotdate">
+            <div class="w3-row main-title">
+                <h2>Truyện Hot Trong Ngày</h2>
+            </div>
+            <div class="w3-row w3-container">
+                <div class="row">
+                    <div class="w3-col s7 m7 17 w3-container">
+                        <h3>
+                            <a href="#" title="Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy">Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy</a>
+                        </h3>
+                        <i class="iconfull"></i>
+                        <i class="iconvip"></i>
+                    </div>
+                    <div class="w3-col s5 m5 17 w3-container">
+                        <a href="#" title="Truyện  Ngôn Tình"> Ngôn Tình</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="w3-col s7 m7 17 w3-container">
+                        <h3>
+                            <a href="#" title="Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy">Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy</a>
+                        </h3>
+                        <i class="iconfull"></i>
+                        <i class="iconvip"></i>
+                    </div>
+                    <div class="w3-col s5 m5 17 w3-container">
+                        <a href="#" title="Truyện  Ngôn Tình"> Ngôn Tình</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="w3-col s7 m7 17 w3-container">
+                        <h3>
+                            <a href="#" title="Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy">Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy</a>
+                        </h3>
+                        <i class="iconfull"></i>
+                        <i class="iconvip"></i>
+                    </div>
+                    <div class="w3-col s5 m5 17 w3-container">
+                        <a href="#" title="Truyện  Ngôn Tình"> Ngôn Tình</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="w3-col s7 m7 17 w3-container">
+                        <h3>
+                            <a href="#" title="Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy">Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy</a>
+                        </h3>
+                        <i class="iconfull"></i>
+                        <i class="iconvip"></i>
+                    </div>
+                    <div class="w3-col s5 m5 17 w3-container">
+                        <a href="#" title="Truyện  Ngôn Tình"> Ngôn Tình</a>
                     </div>
                 </div>
             </div>
+        </div>
 <!-- TRUYEN MOI CAP NHAT -->
-            <div class="row">
-                <div class="col-md-12" style="margin: 0 0 10px 0; background-color: white;">
-                    <a href="#" style="color: rgb(66, 103, 178); font-size: 1.3rem; font-weight: bold;" title="Truyện Mới Cập Nhật">Truyện Mới Cập Nhật</a> <span>></span>
-                    <br>
-                    <div class="row">
-                        <!-- THẦN ĐẾ -->
-                        <div class="col-md-5 border border-secondary-right" style="background-color: rgb(245, 245, 245);">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="img/thande.jpg" alt="" style="width: 110px; height: 150px;">
-                                </div>
-                                <div class="col-md-1"></div>
-                                <div class="col-md-6">
-                                    <a href="#" style="color: rgb(83, 83, 83); font-weight: bold; padding: 0;">Thần Đế</a>
-                                    <label style="margin: 0;">Chương 1921</label>
-                                    <a href="#" style="color: rgb(73, 56, 150); padding: 0;">Tiên Hiệp</a>
-                                </div>
-                            </div>
-                        <div class="row">
-                            <div class="col-md" style="padding: 5px 0 5px 0; background-color:rgb(226, 222, 218)">
-                                <label style="padding: 10px 0 0 15px;">66,465 lượt xem</label>
-                                &nbsp;
-                                <span><button type="button" class="btn btn-danger">Đọc Ngay</button></span>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="col-md-2"></div>
-                        <!-- CƠ TRƯỞNG -->
-                        <div class="col-md-5 border border-secondary-right" style="background-color: rgb(245, 245, 245);">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="img/cotruong.jpg" alt="" style="width: 110px; height: 150px;">
-                                </div>
-                                <div class="col-md-1"></div>
-                                <div class="col-md-6">
-                                    <a href="#" style="color: rgb(83, 83, 83); font-weight: bold; padding: 0;">Cơ Trưởng Vẫn Khỏe Chứ</a>
-                                    <label style="margin: 0;">Chương 384</label>
-                                    <a href="#" style="color: rgb(73, 56, 150); padding: 0;">Ngôn Tình, Sắc, Tiểu Thuyết</a>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md" style="padding: 5px 0 5px 0; background-color:rgb(226, 222, 218)">
-                                    <label style="padding: 10px 0 0 15px;">17915 lượt xem</label>
-                                    &nbsp;
-                                    <span><button type="button" class="btn btn-danger">Đọc Ngay</button></span>
-                                </div>
-                            </div>
-                        </div>
+        <div class="main-module list-update">
+            <div class="w3-row main-title">
+                <h2>
+                    <a href="#" title="Truyện Vip">Truyện Mới Cập Nhật</a>
+                </h2>
+            </div>
+        <div class="w3-row main-content">
+            <!-- VIP MOI row 1-->
+            <div class="w3-col s12 m6 16 story2">
+                <div class="story2-inside">
+                    <a href="#" class="story-thumb" rel="nofollow" title="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                        <span class="bookmark"><i class="icon icon-vip"></i><span>VIP</span></span>
+                        <img src="https://goctruyen.com/public/frontend/images/medium/cotruongvankhoechu11rhkF1Fxn.jpg" alt="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                    </a>
+                    <div class="info">
+                        <h3 class="title">
+                            <a href="#" title="Cơ Trưởng Vẫn Khỏe Chứ">Cơ Trưởng Vẫn Khỏe Chứ</a>
+                        </h3>
+                        <p class="field">Chương 452</p>
+                        <p class="field">
+                            <a href="#" title="Truyện  Ngôn Tình">Ngôn Tình</a>
+                            , 
+                            <a href="#" title="Truyện Sắc">Sắc</a>
+                            , 
+                            <a href="#" title="Truyện Tiểu Thuyết">Tiểu Thuyết</a>
+                        </p>
                     </div>
-                    <br>
-                    <div class="row">
-                        <!-- THẦN ĐẾ -->
-                        <div class="col-md-5 border border-secondary-right" style="background-color: rgb(245, 245, 245);">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="img/thande.jpg" alt="" style="width: 110px; height: 150px;">
-                                </div>
-                                <div class="col-md-1"></div>
-                                <div class="col-md-6">
-                                    <a href="#" style="color: rgb(83, 83, 83); font-weight: bold; padding: 0;">Thần Đế</a>
-                                    <label style="margin: 0;">Chương 1921</label>
-                                    <a href="#" style="color: rgb(73, 56, 150); padding: 0;">Tiên Hiệp</a>
-                                </div>
-                            </div>
-                        <div class="row">
-                            <div class="col-md" style="padding: 5px 0 5px 0; background-color:rgb(226, 222, 218)">
-                                <label style="padding: 10px 0 0 15px;">66,465 lượt xem</label>
-                                &nbsp;
-                                <span><button type="button" class="btn btn-danger">Đọc Ngay</button></span>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="col-md-2"></div>
-                        <!-- CƠ TRƯỞNG -->
-                        <div class="col-md-5 border border-secondary-right" style="background-color: rgb(245, 245, 245);">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="img/cotruong.jpg" alt="" style="width: 110px; height: 150px;">
-                                </div>
-                                <div class="col-md-1"></div>
-                                <div class="col-md-6">
-                                    <a href="#" style="color: rgb(83, 83, 83); font-weight: bold; padding: 0;">Cơ Trưởng Vẫn Khỏe Chứ</a>
-                                    <label style="margin: 0;">Chương 384</label>
-                                    <a href="#" style="color: rgb(73, 56, 150); padding: 0;">Ngôn Tình, Sắc, Tiểu Thuyết</a>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md" style="padding: 5px 0 5px 0; background-color:rgb(226, 222, 218)">
-                                    <label style="padding: 10px 0 0 15px;">17915 lượt xem</label>
-                                    &nbsp;
-                                    <span><button type="button" class="btn btn-danger">Đọc Ngay</button></span>
-                                </div>
-                            </div>
-                        </div>
+                    <footer>
+                        <span>
+                            <a href="#" class="read-now" title="Truyện Cơ Trưởng Vẩn Khỏe Chứ!">Đọc Ngay</a>
+                        </span>
+                        19,818 lượt xem
+                    </footer>
+                </div>
+            </div>
+            <div class="w3-col s12 m6 16 story2">
+                <div class="story2-inside">
+                    <a href="#" class="story-thumb" rel="nofollow" title="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                        <span class="bookmark"><i class="icon icon-vip"></i><span>VIP</span></span>
+                        <img src="https://goctruyen.com/public/frontend/images/medium/cotruongvankhoechu11rhkF1Fxn.jpg" alt="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                    </a>
+                    <div class="info">
+                        <h3 class="title">
+                            <a href="#" title="Cơ Trưởng Vẫn Khỏe Chứ">Cơ Trưởng Vẫn Khỏe Chứ</a>
+                        </h3>
+                        <p class="field">Chương 452</p>
+                        <p class="field">
+                            <a href="#" title="Truyện  Ngôn Tình">Ngôn Tình</a>
+                            , 
+                            <a href="#" title="Truyện Sắc">Sắc</a>
+                            , 
+                            <a href="#" title="Truyện Tiểu Thuyết">Tiểu Thuyết</a>
+                        </p>
                     </div>
-                    <br>
-                    <div class="row">
-                        <!-- THẦN ĐẾ -->
-                        <div class="col-md-5 border border-secondary-right" style="background-color: rgb(245, 245, 245);">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="img/thande.jpg" alt="" style="width: 110px; height: 150px;">
-                                </div>
-                                <div class="col-md-1"></div>
-                                <div class="col-md-6">
-                                    <a href="#" style="color: rgb(83, 83, 83); font-weight: bold; padding: 0;">Thần Đế</a>
-                                    <label style="margin: 0;">Chương 1921</label>
-                                    <a href="#" style="color: rgb(73, 56, 150); padding: 0;">Tiên Hiệp</a>
-                                </div>
-                            </div>
-                        <div class="row">
-                            <div class="col-md" style="padding: 5px 0 5px 0; background-color:rgb(226, 222, 218)">
-                                <label style="padding: 10px 0 0 15px;">66,465 lượt xem</label>
-                                &nbsp;
-                                <span><button type="button" class="btn btn-danger">Đọc Ngay</button></span>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="col-md-2"></div>
-                        <!-- CƠ TRƯỞNG -->
-                        <div class="col-md-5 border border-secondary-right" style="background-color: rgb(245, 245, 245);">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="img/cotruong.jpg" alt="" style="width: 110px; height: 150px;">
-                                </div>
-                                <div class="col-md-1"></div>
-                                <div class="col-md-6">
-                                    <a href="#" style="color: rgb(83, 83, 83); font-weight: bold; padding: 0;">Cơ Trưởng Vẫn Khỏe Chứ</a>
-                                    <label style="margin: 0;">Chương 384</label>
-                                    <a href="#" style="color: rgb(73, 56, 150); padding: 0;">Ngôn Tình, Sắc, Tiểu Thuyết</a>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md" style="padding: 5px 0 5px 0; background-color:rgb(226, 222, 218)">
-                                    <label style="padding: 10px 0 0 15px;">17915 lượt xem</label>
-                                    &nbsp;
-                                    <span><button type="button" class="btn btn-danger">Đọc Ngay</button></span>
-                                </div>
-                            </div>
-                        </div>
+                    <footer>
+                        <span>
+                            <a href="#" class="read-now" title="Truyện Cơ Trưởng Vẩn Khỏe Chứ!">Đọc Ngay</a>
+                        </span>
+                        19,818 lượt xem
+                    </footer>
+                </div>
+            </div>
+            <div class="w3-col s12 m6 16 story2">
+                <div class="story2-inside">
+                    <a href="#" class="story-thumb" rel="nofollow" title="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                        <span class="bookmark"><i class="icon icon-vip"></i><span>VIP</span></span>
+                        <img src="https://goctruyen.com/public/frontend/images/medium/cotruongvankhoechu11rhkF1Fxn.jpg" alt="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                    </a>
+                    <div class="info">
+                        <h3 class="title">
+                            <a href="#" title="Cơ Trưởng Vẫn Khỏe Chứ">Cơ Trưởng Vẫn Khỏe Chứ</a>
+                        </h3>
+                        <p class="field">Chương 452</p>
+                        <p class="field">
+                            <a href="#" title="Truyện  Ngôn Tình">Ngôn Tình</a>
+                            , 
+                            <a href="#" title="Truyện Sắc">Sắc</a>
+                            , 
+                            <a href="#" title="Truyện Tiểu Thuyết">Tiểu Thuyết</a>
+                        </p>
                     </div>
-                    <br>
-                    <div class="row">
-                        <!-- THẦN ĐẾ -->
-                        <div class="col-md-5 border border-secondary-right" style="background-color: rgb(245, 245, 245);">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="img/thande.jpg" alt="" style="width: 110px; height: 150px;">
-                                </div>
-                                <div class="col-md-1"></div>
-                                <div class="col-md-6">
-                                    <a href="#" style="color: rgb(83, 83, 83); font-weight: bold; padding: 0;">Thần Đế</a>
-                                    <label style="margin: 0;">Chương 1921</label>
-                                    <a href="#" style="color: rgb(73, 56, 150); padding: 0;">Tiên Hiệp</a>
-                                </div>
-                            </div>
-                        <div class="row">
-                            <div class="col-md" style="padding: 5px 0 5px 0; background-color:rgb(226, 222, 218)">
-                                <label style="padding: 10px 0 0 15px;">66,465 lượt xem</label>
-                                &nbsp;
-                                <span><button type="button" class="btn btn-danger">Đọc Ngay</button></span>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="col-md-2"></div>
-                        <!-- CƠ TRƯỞNG -->
-                        <div class="col-md-5 border border-secondary-right" style="background-color: rgb(245, 245, 245);">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="img/cotruong.jpg" alt="" style="width: 110px; height: 150px;">
-                                </div>
-                                <div class="col-md-1"></div>
-                                <div class="col-md-6">
-                                    <a href="#" style="color: rgb(83, 83, 83); font-weight: bold; padding: 0;">Cơ Trưởng Vẫn Khỏe Chứ</a>
-                                    <label style="margin: 0;">Chương 384</label>
-                                    <a href="#" style="color: rgb(73, 56, 150); padding: 0;">Ngôn Tình, Sắc, Tiểu Thuyết</a>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md" style="padding: 5px 0 5px 0; background-color:rgb(226, 222, 218)">
-                                    <label style="padding: 10px 0 0 15px;">17915 lượt xem</label>
-                                    &nbsp;
-                                    <span><button type="button" class="btn btn-danger">Đọc Ngay</button></span>
-                                </div>
-                            </div>
-                        </div>
+                    <footer>
+                        <span>
+                            <a href="#" class="read-now" title="Truyện Cơ Trưởng Vẩn Khỏe Chứ!">Đọc Ngay</a>
+                        </span>
+                        19,818 lượt xem
+                    </footer>
+                </div>
+            </div>
+            <div class="w3-col s12 m6 16 story2">
+                <div class="story2-inside">
+                    <a href="#" class="story-thumb" rel="nofollow" title="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                        <span class="bookmark"><i class="icon icon-vip"></i><span>VIP</span></span>
+                        <img src="https://goctruyen.com/public/frontend/images/medium/cotruongvankhoechu11rhkF1Fxn.jpg" alt="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                    </a>
+                    <div class="info">
+                        <h3 class="title">
+                            <a href="#" title="Cơ Trưởng Vẫn Khỏe Chứ">Cơ Trưởng Vẫn Khỏe Chứ</a>
+                        </h3>
+                        <p class="field">Chương 452</p>
+                        <p class="field">
+                            <a href="#" title="Truyện  Ngôn Tình">Ngôn Tình</a>
+                            , 
+                            <a href="#" title="Truyện Sắc">Sắc</a>
+                            , 
+                            <a href="#" title="Truyện Tiểu Thuyết">Tiểu Thuyết</a>
+                        </p>
                     </div>
-                    <br>
-                    <div class="row">
-                        <!-- THẦN ĐẾ -->
-                        <div class="col-md-5 border border-secondary-right" style="background-color: rgb(245, 245, 245);">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="img/thande.jpg" alt="" style="width: 110px; height: 150px;">
-                                </div>
-                                <div class="col-md-1"></div>
-                                <div class="col-md-6">
-                                    <a href="#" style="color: rgb(83, 83, 83); font-weight: bold; padding: 0;">Thần Đế</a>
-                                    <label style="margin: 0;">Chương 1921</label>
-                                    <a href="#" style="color: rgb(73, 56, 150); padding: 0;">Tiên Hiệp</a>
-                                </div>
-                            </div>
-                        <div class="row">
-                            <div class="col-md" style="padding: 5px 0 5px 0; background-color:rgb(226, 222, 218)">
-                                <label style="padding: 10px 0 0 15px;">66,465 lượt xem</label>
-                                &nbsp;
-                                <span><button type="button" class="btn btn-danger">Đọc Ngay</button></span>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="col-md-2"></div>
-                        <!-- CƠ TRƯỞNG -->
-                        <div class="col-md-5 border border-secondary-right" style="background-color: rgb(245, 245, 245);">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <img src="img/cotruong.jpg" alt="" style="width: 110px; height: 150px;">
-                                </div>
-                                <div class="col-md-1"></div>
-                                <div class="col-md-6">
-                                    <a href="#" style="color: rgb(83, 83, 83); font-weight: bold; padding: 0;">Cơ Trưởng Vẫn Khỏe Chứ</a>
-                                    <label style="margin: 0;">Chương 384</label>
-                                    <a href="#" style="color: rgb(73, 56, 150); padding: 0;">Ngôn Tình, Sắc, Tiểu Thuyết</a>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md" style="padding: 5px 0 5px 0; background-color:rgb(226, 222, 218)">
-                                    <label style="padding: 10px 0 0 15px;">17915 lượt xem</label>
-                                    &nbsp;
-                                    <span><button type="button" class="btn btn-danger">Đọc Ngay</button></span>
-                                </div>
-                            </div>
-                        </div>
+                    <footer>
+                        <span>
+                            <a href="#" class="read-now" title="Truyện Cơ Trưởng Vẩn Khỏe Chứ!">Đọc Ngay</a>
+                        </span>
+                        19,818 lượt xem
+                    </footer>
+                </div>
+            </div>
+            <div class="w3-col s12 m6 16 story2">
+                <div class="story2-inside">
+                    <a href="#" class="story-thumb" rel="nofollow" title="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                        <span class="bookmark"><i class="icon icon-vip"></i><span>VIP</span></span>
+                        <img src="https://goctruyen.com/public/frontend/images/medium/cotruongvankhoechu11rhkF1Fxn.jpg" alt="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                    </a>
+                    <div class="info">
+                        <h3 class="title">
+                            <a href="#" title="Cơ Trưởng Vẫn Khỏe Chứ">Cơ Trưởng Vẫn Khỏe Chứ</a>
+                        </h3>
+                        <p class="field">Chương 452</p>
+                        <p class="field">
+                            <a href="#" title="Truyện  Ngôn Tình">Ngôn Tình</a>
+                            , 
+                            <a href="#" title="Truyện Sắc">Sắc</a>
+                            , 
+                            <a href="#" title="Truyện Tiểu Thuyết">Tiểu Thuyết</a>
+                        </p>
                     </div>
-                    <br>
+                    <footer>
+                        <span>
+                            <a href="#" class="read-now" title="Truyện Cơ Trưởng Vẩn Khỏe Chứ!">Đọc Ngay</a>
+                        </span>
+                        19,818 lượt xem
+                    </footer>
+                </div>
+            </div>
+            <div class="w3-col s12 m6 16 story2">
+                <div class="story2-inside">
+                    <a href="#" class="story-thumb" rel="nofollow" title="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                        <span class="bookmark"><i class="icon icon-vip"></i><span>VIP</span></span>
+                        <img src="https://goctruyen.com/public/frontend/images/medium/cotruongvankhoechu11rhkF1Fxn.jpg" alt="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                    </a>
+                    <div class="info">
+                        <h3 class="title">
+                            <a href="#" title="Cơ Trưởng Vẫn Khỏe Chứ">Cơ Trưởng Vẫn Khỏe Chứ</a>
+                        </h3>
+                        <p class="field">Chương 452</p>
+                        <p class="field">
+                            <a href="#" title="Truyện  Ngôn Tình">Ngôn Tình</a>
+                            , 
+                            <a href="#" title="Truyện Sắc">Sắc</a>
+                            , 
+                            <a href="#" title="Truyện Tiểu Thuyết">Tiểu Thuyết</a>
+                        </p>
+                    </div>
+                    <footer>
+                        <span>
+                            <a href="#" class="read-now" title="Truyện Cơ Trưởng Vẩn Khỏe Chứ!">Đọc Ngay</a>
+                        </span>
+                        19,818 lượt xem
+                    </footer>
+                </div>
+            </div>
+            <div class="w3-col s12 m6 16 story2">
+                <div class="story2-inside">
+                    <a href="#" class="story-thumb" rel="nofollow" title="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                        <span class="bookmark"><i class="icon icon-vip"></i><span>VIP</span></span>
+                        <img src="https://goctruyen.com/public/frontend/images/medium/cotruongvankhoechu11rhkF1Fxn.jpg" alt="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                    </a>
+                    <div class="info">
+                        <h3 class="title">
+                            <a href="#" title="Cơ Trưởng Vẫn Khỏe Chứ">Cơ Trưởng Vẫn Khỏe Chứ</a>
+                        </h3>
+                        <p class="field">Chương 452</p>
+                        <p class="field">
+                            <a href="#" title="Truyện  Ngôn Tình">Ngôn Tình</a>
+                            , 
+                            <a href="#" title="Truyện Sắc">Sắc</a>
+                            , 
+                            <a href="#" title="Truyện Tiểu Thuyết">Tiểu Thuyết</a>
+                        </p>
+                    </div>
+                    <footer>
+                        <span>
+                            <a href="#" class="read-now" title="Truyện Cơ Trưởng Vẩn Khỏe Chứ!">Đọc Ngay</a>
+                        </span>
+                        19,818 lượt xem
+                    </footer>
+                </div>
+            </div>
+            <div class="w3-col s12 m6 16 story2">
+                <div class="story2-inside">
+                    <a href="#" class="story-thumb" rel="nofollow" title="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                        <span class="bookmark"><i class="icon icon-vip"></i><span>VIP</span></span>
+                        <img src="https://goctruyen.com/public/frontend/images/medium/cotruongvankhoechu11rhkF1Fxn.jpg" alt="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                    </a>
+                    <div class="info">
+                        <h3 class="title">
+                            <a href="#" title="Cơ Trưởng Vẫn Khỏe Chứ">Cơ Trưởng Vẫn Khỏe Chứ</a>
+                        </h3>
+                        <p class="field">Chương 452</p>
+                        <p class="field">
+                            <a href="#" title="Truyện  Ngôn Tình">Ngôn Tình</a>
+                            , 
+                            <a href="#" title="Truyện Sắc">Sắc</a>
+                            , 
+                            <a href="#" title="Truyện Tiểu Thuyết">Tiểu Thuyết</a>
+                        </p>
+                    </div>
+                    <footer>
+                        <span>
+                            <a href="#" class="read-now" title="Truyện Cơ Trưởng Vẩn Khỏe Chứ!">Đọc Ngay</a>
+                        </span>
+                        19,818 lượt xem
+                    </footer>
+                </div>
+            </div>
+            <div class="w3-col s12 m6 16 story2">
+                <div class="story2-inside">
+                    <a href="#" class="story-thumb" rel="nofollow" title="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                        <span class="bookmark"><i class="icon icon-vip"></i><span>VIP</span></span>
+                        <img src="https://goctruyen.com/public/frontend/images/medium/cotruongvankhoechu11rhkF1Fxn.jpg" alt="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                    </a>
+                    <div class="info">
+                        <h3 class="title">
+                            <a href="#" title="Cơ Trưởng Vẫn Khỏe Chứ">Cơ Trưởng Vẫn Khỏe Chứ</a>
+                        </h3>
+                        <p class="field">Chương 452</p>
+                        <p class="field">
+                            <a href="#" title="Truyện  Ngôn Tình">Ngôn Tình</a>
+                            , 
+                            <a href="#" title="Truyện Sắc">Sắc</a>
+                            , 
+                            <a href="#" title="Truyện Tiểu Thuyết">Tiểu Thuyết</a>
+                        </p>
+                    </div>
+                    <footer>
+                        <span>
+                            <a href="#" class="read-now" title="Truyện Cơ Trưởng Vẩn Khỏe Chứ!">Đọc Ngay</a>
+                        </span>
+                        19,818 lượt xem
+                    </footer>
+                </div>
+            </div>
+            <div class="w3-col s12 m6 16 story2">
+                <div class="story2-inside">
+                    <a href="#" class="story-thumb" rel="nofollow" title="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                        <span class="bookmark"><i class="icon icon-vip"></i><span>VIP</span></span>
+                        <img src="https://goctruyen.com/public/frontend/images/medium/cotruongvankhoechu11rhkF1Fxn.jpg" alt="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                    </a>
+                    <div class="info">
+                        <h3 class="title">
+                            <a href="#" title="Cơ Trưởng Vẫn Khỏe Chứ">Cơ Trưởng Vẫn Khỏe Chứ</a>
+                        </h3>
+                        <p class="field">Chương 452</p>
+                        <p class="field">
+                            <a href="#" title="Truyện  Ngôn Tình">Ngôn Tình</a>
+                            , 
+                            <a href="#" title="Truyện Sắc">Sắc</a>
+                            , 
+                            <a href="#" title="Truyện Tiểu Thuyết">Tiểu Thuyết</a>
+                        </p>
+                    </div>
+                    <footer>
+                        <span>
+                            <a href="#" class="read-now" title="Truyện Cơ Trưởng Vẩn Khỏe Chứ!">Đọc Ngay</a>
+                        </span>
+                        19,818 lượt xem
+                    </footer>
+                </div>
+            </div>
+            <div class="w3-col s12 m6 16 story2">
+                <div class="story2-inside">
+                    <a href="#" class="story-thumb" rel="nofollow" title="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                        <span class="bookmark"><i class="icon icon-vip"></i><span>VIP</span></span>
+                        <img src="https://goctruyen.com/public/frontend/images/medium/cotruongvankhoechu11rhkF1Fxn.jpg" alt="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                    </a>
+                    <div class="info">
+                        <h3 class="title">
+                            <a href="#" title="Cơ Trưởng Vẫn Khỏe Chứ">Cơ Trưởng Vẫn Khỏe Chứ</a>
+                        </h3>
+                        <p class="field">Chương 452</p>
+                        <p class="field">
+                            <a href="#" title="Truyện  Ngôn Tình">Ngôn Tình</a>
+                            , 
+                            <a href="#" title="Truyện Sắc">Sắc</a>
+                            , 
+                            <a href="#" title="Truyện Tiểu Thuyết">Tiểu Thuyết</a>
+                        </p>
+                    </div>
+                    <footer>
+                        <span>
+                            <a href="#" class="read-now" title="Truyện Cơ Trưởng Vẩn Khỏe Chứ!">Đọc Ngay</a>
+                        </span>
+                        19,818 lượt xem
+                    </footer>
+                </div>
+            </div>
+            <div class="w3-col s12 m6 16 story2">
+                <div class="story2-inside">
+                    <a href="#" class="story-thumb" rel="nofollow" title="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                        <span class="bookmark"><i class="icon icon-vip"></i><span>VIP</span></span>
+                        <img src="https://goctruyen.com/public/frontend/images/medium/cotruongvankhoechu11rhkF1Fxn.jpg" alt="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                    </a>
+                    <div class="info">
+                        <h3 class="title">
+                            <a href="#" title="Cơ Trưởng Vẫn Khỏe Chứ">Cơ Trưởng Vẫn Khỏe Chứ</a>
+                        </h3>
+                        <p class="field">Chương 452</p>
+                        <p class="field">
+                            <a href="#" title="Truyện  Ngôn Tình">Ngôn Tình</a>
+                            , 
+                            <a href="#" title="Truyện Sắc">Sắc</a>
+                            , 
+                            <a href="#" title="Truyện Tiểu Thuyết">Tiểu Thuyết</a>
+                        </p>
+                    </div>
+                    <footer>
+                        <span>
+                            <a href="#" class="read-now" title="Truyện Cơ Trưởng Vẩn Khỏe Chứ!">Đọc Ngay</a>
+                        </span>
+                        19,818 lượt xem
+                    </footer>
+                </div>
+            </div>
+            <div class="w3-col s12 m6 16 story2">
+                <div class="story2-inside">
+                    <a href="#" class="story-thumb" rel="nofollow" title="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                        <span class="bookmark"><i class="icon icon-vip"></i><span>VIP</span></span>
+                        <img src="https://goctruyen.com/public/frontend/images/medium/cotruongvankhoechu11rhkF1Fxn.jpg" alt="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                    </a>
+                    <div class="info">
+                        <h3 class="title">
+                            <a href="#" title="Cơ Trưởng Vẫn Khỏe Chứ">Cơ Trưởng Vẫn Khỏe Chứ</a>
+                        </h3>
+                        <p class="field">Chương 452</p>
+                        <p class="field">
+                            <a href="#" title="Truyện  Ngôn Tình">Ngôn Tình</a>
+                            , 
+                            <a href="#" title="Truyện Sắc">Sắc</a>
+                            , 
+                            <a href="#" title="Truyện Tiểu Thuyết">Tiểu Thuyết</a>
+                        </p>
+                    </div>
+                    <footer>
+                        <span>
+                            <a href="#" class="read-now" title="Truyện Cơ Trưởng Vẩn Khỏe Chứ!">Đọc Ngay</a>
+                        </span>
+                        19,818 lượt xem
+                    </footer>
+                </div>
+            </div>
+            <div class="w3-col s12 m6 16 story2">
+                <div class="story2-inside">
+                    <a href="#" class="story-thumb" rel="nofollow" title="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                        <span class="bookmark"><i class="icon icon-vip"></i><span>VIP</span></span>
+                        <img src="https://goctruyen.com/public/frontend/images/medium/cotruongvankhoechu11rhkF1Fxn.jpg" alt="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                    </a>
+                    <div class="info">
+                        <h3 class="title">
+                            <a href="#" title="Cơ Trưởng Vẫn Khỏe Chứ">Cơ Trưởng Vẫn Khỏe Chứ</a>
+                        </h3>
+                        <p class="field">Chương 452</p>
+                        <p class="field">
+                            <a href="#" title="Truyện  Ngôn Tình">Ngôn Tình</a>
+                            , 
+                            <a href="#" title="Truyện Sắc">Sắc</a>
+                            , 
+                            <a href="#" title="Truyện Tiểu Thuyết">Tiểu Thuyết</a>
+                        </p>
+                    </div>
+                    <footer>
+                        <span>
+                            <a href="#" class="read-now" title="Truyện Cơ Trưởng Vẩn Khỏe Chứ!">Đọc Ngay</a>
+                        </span>
+                        19,818 lượt xem
+                    </footer>
+                </div>
+            </div>
+            <div class="w3-col s12 m6 16 story2">
+                <div class="story2-inside">
+                    <a href="#" class="story-thumb" rel="nofollow" title="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                        <span class="bookmark"><i class="icon icon-vip"></i><span>VIP</span></span>
+                        <img src="https://goctruyen.com/public/frontend/images/medium/cotruongvankhoechu11rhkF1Fxn.jpg" alt="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                    </a>
+                    <div class="info">
+                        <h3 class="title">
+                            <a href="#" title="Cơ Trưởng Vẫn Khỏe Chứ">Cơ Trưởng Vẫn Khỏe Chứ</a>
+                        </h3>
+                        <p class="field">Chương 452</p>
+                        <p class="field">
+                            <a href="#" title="Truyện  Ngôn Tình">Ngôn Tình</a>
+                            , 
+                            <a href="#" title="Truyện Sắc">Sắc</a>
+                            , 
+                            <a href="#" title="Truyện Tiểu Thuyết">Tiểu Thuyết</a>
+                        </p>
+                    </div>
+                    <footer>
+                        <span>
+                            <a href="#" class="read-now" title="Truyện Cơ Trưởng Vẩn Khỏe Chứ!">Đọc Ngay</a>
+                        </span>
+                        19,818 lượt xem
+                    </footer>
+                </div>
+            </div>
+            <div class="w3-col s12 m6 16 story2">
+                <div class="story2-inside">
+                    <a href="#" class="story-thumb" rel="nofollow" title="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                        <span class="bookmark"><i class="icon icon-vip"></i><span>VIP</span></span>
+                        <img src="https://goctruyen.com/public/frontend/images/medium/cotruongvankhoechu11rhkF1Fxn.jpg" alt="Truyện Cơ Trưởng Vẫn Khỏe Chứ">
+                    </a>
+                    <div class="info">
+                        <h3 class="title">
+                            <a href="#" title="Cơ Trưởng Vẫn Khỏe Chứ">Cơ Trưởng Vẫn Khỏe Chứ</a>
+                        </h3>
+                        <p class="field">Chương 452</p>
+                        <p class="field">
+                            <a href="#" title="Truyện  Ngôn Tình">Ngôn Tình</a>
+                            , 
+                            <a href="#" title="Truyện Sắc">Sắc</a>
+                            , 
+                            <a href="#" title="Truyện Tiểu Thuyết">Tiểu Thuyết</a>
+                        </p>
+                    </div>
+                    <footer>
+                        <span>
+                            <a href="#" class="read-now" title="Truyện Cơ Trưởng Vẩn Khỏe Chứ!">Đọc Ngay</a>
+                        </span>
+                        19,818 lượt xem
+                    </footer>
+                </div>
+            </div>
+        </div>
 <!-- PAGINATION -->
-                    <ul class="pagination justify-content-center">
-                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item">
-                        <a class="page-link" href="#">Last</a>
-                        </li>
-                    </ul>
+        <!-- <div class="w3-center pagination">
+            <ul class="w3-pagination paging">
+                <li><a href="#" class="active" title="current-page">1</a></li>
+                <li><a href="#" title="page-2">2</a></li>
+                <li><a href="#" title="page-3">3</a></li>
+                <li><a href="#" title="page-4">4</a></li>
+                <li><a href="#" title="page-5">5</a></li>
+                <li><a href="#" title="page-899">Last »</a></li>
+            </ul>
+            <div class="w3-center pages">
+                <input type="number" class="w3-input pages-input" placeholder="Tới Trang">
+                <button type="submit" class="w3-btn pages-button">Đi</button>
+            </div>
+        </div> -->
+
+        <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+            <a class="page-link" href="#">Last</a>
+            </li>
+        </ul>
 <!-- INPUT NUMBER -->
-                        <div class="input-group" style="width: 300px; margin-left: auto; margin-right: auto;">
-                            <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon" style="border-radius: 20px;">
-                            <option selected>Tới trang...</option>
-                            <option value="1">01</option>
-                            <option value="2">02</option>
-                            <option value="3">03</option>
-                            <option value="3">04</option>
-                            </select>
-                            <div class="input-group-append">
-                            <button class="btn btn-outline-secondary" type="button" style="background-color: rgb(66, 103, 178); color: whitesmoke; border-radius: 20px; width: 60px; margin-left: 10px;">Đi</button>
-                            </div>
-                        </div>
-                </div>
+            <div class="input-group">
+                <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                <option selected>Tới trang...</option>
+                <option value="1">01</option>
+                <option value="2">02</option>
+                <option value="3">03</option>
+                <option value="3">04</option>
+                </select>
+                <div class="input-group-append">
+                <button class="btn btn-outline-secondary btn-go" type="button">Đi</button>
                 </div>
             </div>
+        </div>
+    </div>
 <!-- Ý KIẾN BẠN ĐỌC -->
-        <div class="col-md-4">
-            <div class="row">
-                <div class="col-md-12" style="margin: 0 0 10px 10px; background-color: white;">
-                    <div class="comment">
-                        <label href="#" style="color: rgb(66, 103, 178); font-size: 1.3rem; font-weight: bold;">Ý Kiến Bạn Đọc</label> <span>></span>
-                        <br>
-                        <label style="font-size: 0.7rem; margin: 0;"><span style="font-size: 0.8rem; color: rgb(66, 134, 211); font-weight: bold;">Linhh Anhh</span> <span style="color: rgb(85, 85, 85);">bình luận truyện</span> <span><a href="#" style="color: rgb(53, 53, 53); font-weight: bold;">Vịt Nhỏ Xấu Xí, Em Đừng Hòng Thoát Khỏi Ta</a></span></label>
-                        <label style="font-size: 0.6rem; color: rgb(85, 85, 85);">4 giờ trước</label>
-                        <label>Truyện khá là mlem mlem =))</label>
-                        <hr>
-                    </div>
-                    <div class="comment">
-                        <br>
-                        <label style="font-size: 0.7rem; margin: 0;"><span style="font-size: 0.8rem; color: rgb(66, 134, 211); font-weight: bold;">Linhh Anhh</span> <span style="color: rgb(85, 85, 85);">bình luận truyện</span> <span><a href="#" style="color: rgb(53, 53, 53); font-weight: bold;">Vịt Nhỏ Xấu Xí, Em Đừng Hòng Thoát Khỏi Ta</a></span></label>
-                        <label style="font-size: 0.6rem; color: rgb(85, 85, 85);">3 giờ trước</label>
-                        <label>Truyện khá là mlem mlem =))</label>
-                        <hr>
-                    </div>
-                    <div class="comment">
-                        <br>
-                        <label style="font-size: 0.7rem; margin: 0;"><span style="font-size: 0.8rem; color: rgb(66, 134, 211); font-weight: bold;">Linhh Anhh</span> <span style="color: rgb(85, 85, 85);">bình luận truyện</span> <span><a href="#" style="color: rgb(53, 53, 53); font-weight: bold;">Vịt Nhỏ Xấu Xí, Em Đừng Hòng Thoát Khỏi Ta</a></span></label>
-                        <label style="font-size: 0.6rem; color: rgb(85, 85, 85);">3 giờ trước</label>
-                        <label>Truyện khá là mlem mlem =))</label>
-                        <hr>
-                    </div>
-                    <div class="comment">
-                        <br>
-                        <label style="font-size: 0.7rem; margin: 0;"><span style="font-size: 0.8rem; color: rgb(66, 134, 211); font-weight: bold;">Linhh Anhh</span> <span style="color: rgb(85, 85, 85);">bình luận truyện</span> <span><a href="#" style="color: rgb(53, 53, 53); font-weight: bold;">Vịt Nhỏ Xấu Xí, Em Đừng Hòng Thoát Khỏi Ta</a></span></label>
-                        <label style="font-size: 0.6rem; color: rgb(85, 85, 85);">2 giờ trước</label>
-                        <label>Truyện khá là mlem mlem =))</label>
-                        <hr>
-                    </div>
-                    <div class="comment">
-                        <br>
-                        <label style="font-size: 0.7rem; margin: 0;"><span style="font-size: 0.8rem; color: rgb(66, 134, 211); font-weight: bold;">Linhh Anhh</span> <span style="color: rgb(85, 85, 85);">bình luận truyện</span> <span><a href="#" style="color: rgb(53, 53, 53); font-weight: bold;">Vịt Nhỏ Xấu Xí, Em Đừng Hòng Thoát Khỏi Ta</a></span></label>
-                        <label style="font-size: 0.6rem; color: rgb(85, 85, 85);">1 giờ trước</label>
-                        <label>Truyện khá là mlem mlem =))</label>
-                        <hr>
-                    </div>
-                    <div class="comment">
-                        <br>
-                        <label style="font-size: 0.7rem; margin: 0;"><span style="font-size: 0.8rem; color: rgb(66, 134, 211); font-weight: bold;">Linhh Anhh</span> <span style="color: rgb(85, 85, 85);">bình luận truyện</span> <span><a href="#" style="color: rgb(53, 53, 53); font-weight: bold;">Vịt Nhỏ Xấu Xí, Em Đừng Hòng Thoát Khỏi Ta</a></span></label>
-                        <label style="font-size: 0.6rem; color: rgb(85, 85, 85);">15 phút trước</label>
-                        <label>Truyện khá là mlem mlem =))</label>
-                        <hr>
-                    </div>
-                    <div class="comment">
-                        <br>
-                        <label style="font-size: 0.7rem; margin: 0;"><span style="font-size: 0.8rem; color: rgb(66, 134, 211); font-weight: bold;">Linhh Anhh</span> <span style="color: rgb(85, 85, 85);">bình luận truyện</span> <span><a href="#" style="color: rgb(53, 53, 53); font-weight: bold;">Vịt Nhỏ Xấu Xí, Em Đừng Hòng Thoát Khỏi Ta</a></span></label>
-                        <label style="font-size: 0.6rem; color: rgb(85, 85, 85);">15 phút trước</label>
-                        <label>Truyện khá là mlem mlem =))</label>
-                        <hr>
-                    </div>
+    <div id="sidebar" class="w3-col s12 m4 14">
+        <div class="w3-row">
+            <div class="w3-col s12 m12 l12 sidebar-module sidebar-chatbox"></div>
+            <div class="w3-col s12 m12 l12 sidebar-module">
+            <div class="w3-row sidebar-title">
+                <h3>
+                    Ý Kiến Bạn Đọc
+                </h3>
+            </div>
+            <div class="sidebar-content">
+                <div class="comment">  
+                    <br>
+                    <label style="font-size: 0.7rem; margin: 0;"><span style="font-size: 0.8rem; color: rgb(66, 134, 211); font-weight: bold;">Linhh Anhh</span> <span style="color: rgb(85, 85, 85);">bình luận truyện</span> <span><a href="#" style="color: rgb(53, 53, 53); font-weight: bold;">Vịt Nhỏ Xấu Xí, Em Đừng Hòng Thoát Khỏi Ta</a></span></label>
+                    <label style="font-size: 0.6rem; color: rgb(85, 85, 85);">4 giờ trước</label>
+                    <label>Truyện khá là mlem mlem =))</label>
+                    <hr>
+                </div>
+                <div class="comment">
+                    <br>
+                    <label style="font-size: 0.7rem; margin: 0;"><span style="font-size: 0.8rem; color: rgb(66, 134, 211); font-weight: bold;">Linhh Anhh</span> <span style="color: rgb(85, 85, 85);">bình luận truyện</span> <span><a href="#" style="color: rgb(53, 53, 53); font-weight: bold;">Vịt Nhỏ Xấu Xí, Em Đừng Hòng Thoát Khỏi Ta</a></span></label>
+                    <label style="font-size: 0.6rem; color: rgb(85, 85, 85);">3 giờ trước</label>
+                    <label>Truyện khá là mlem mlem =))</label>
+                    <hr>
+                </div>
+                <div class="comment">
+                    <br>
+                    <label style="font-size: 0.7rem; margin: 0;"><span style="font-size: 0.8rem; color: rgb(66, 134, 211); font-weight: bold;">Linhh Anhh</span> <span style="color: rgb(85, 85, 85);">bình luận truyện</span> <span><a href="#" style="color: rgb(53, 53, 53); font-weight: bold;">Vịt Nhỏ Xấu Xí, Em Đừng Hòng Thoát Khỏi Ta</a></span></label>
+                    <label style="font-size: 0.6rem; color: rgb(85, 85, 85);">3 giờ trước</label>
+                    <label>Truyện khá là mlem mlem =))</label>
+                    <hr>
+                </div>
+                <div class="comment">
+                    <br>
+                    <label style="font-size: 0.7rem; margin: 0;"><span style="font-size: 0.8rem; color: rgb(66, 134, 211); font-weight: bold;">Linhh Anhh</span> <span style="color: rgb(85, 85, 85);">bình luận truyện</span> <span><a href="#" style="color: rgb(53, 53, 53); font-weight: bold;">Vịt Nhỏ Xấu Xí, Em Đừng Hòng Thoát Khỏi Ta</a></span></label>
+                    <label style="font-size: 0.6rem; color: rgb(85, 85, 85);">2 giờ trước</label>
+                    <label>Truyện khá là mlem mlem =))</label>
+                    <hr>
+                </div>
+                <div class="comment">
+                    <br>
+                    <label style="font-size: 0.7rem; margin: 0;"><span style="font-size: 0.8rem; color: rgb(66, 134, 211); font-weight: bold;">Linhh Anhh</span> <span style="color: rgb(85, 85, 85);">bình luận truyện</span> <span><a href="#" style="color: rgb(53, 53, 53); font-weight: bold;">Vịt Nhỏ Xấu Xí, Em Đừng Hòng Thoát Khỏi Ta</a></span></label>
+                    <label style="font-size: 0.6rem; color: rgb(85, 85, 85);">1 giờ trước</label>
+                    <label>Truyện khá là mlem mlem =))</label>
+                    <hr>
+                </div>
+                <div class="comment">
+                    <br>
+                    <label style="font-size: 0.7rem; margin: 0;"><span style="font-size: 0.8rem; color: rgb(66, 134, 211); font-weight: bold;">Linhh Anhh</span> <span style="color: rgb(85, 85, 85);">bình luận truyện</span> <span><a href="#" style="color: rgb(53, 53, 53); font-weight: bold;">Vịt Nhỏ Xấu Xí, Em Đừng Hòng Thoát Khỏi Ta</a></span></label>
+                    <label style="font-size: 0.6rem; color: rgb(85, 85, 85);">15 phút trước</label>
+                    <label>Truyện khá là mlem mlem =))</label>
+                    <hr>
+                </div>
+                <div class="comment">
+                    <br>
+                    <label style="font-size: 0.7rem; margin: 0;"><span style="font-size: 0.8rem; color: rgb(66, 134, 211); font-weight: bold;">Linhh Anhh</span> <span style="color: rgb(85, 85, 85);">bình luận truyện</span> <span><a href="#" style="color: rgb(53, 53, 53); font-weight: bold;">Vịt Nhỏ Xấu Xí, Em Đừng Hòng Thoát Khỏi Ta</a></span></label>
+                    <label style="font-size: 0.6rem; color: rgb(85, 85, 85);">15 phút trước</label>
+                    <label>Truyện khá là mlem mlem =))</label>
+                    <hr>
                 </div>
             </div>
+            </div>
+        </div>
 <!-- TRUYỆN HOT -->
-            <div class="row">
-                <div class="col-md-12" style="margin: 0 0 10px 10px; background-color: white;">
-                    <a href="#" style="color: rgb(66, 103, 178); font-size: 1.3rem; font-weight: bold;" title="Truyện Hot">Truyện Hot</a> <span>></span>
-                <!-- RANKING -->
-                    <div class="rating" style="padding: 10px 0 10px 0; display: flex;">
-                        <div style="width: 40px !important; height: 40px !important; margin: 5px; background-color: rgb(244, 67, 54); border-radius: 100%; display: flex; justify-content: center; align-items: center;">
-                            <span style="font-size: 1.4rem; color: whitesmoke; width: 40px !important; height: 40px !important; display: flex; justify-content: center; align-items: center;">1</span>
-                        </div>
-                        <div class="rating__tittle">
-                            <a href="#" style="font-weight: bold; white-space: nowrap;">Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy</a><br>
-                        <a href="#" style="font-size: 0.8rem; color: gray;">Ngôn Tình</a>
-                        </div>
+        <div class="w3-col s12 m12 l12 sidebar-module sidebar-top">
+            <div class="w3-row sidebar-title">
+                <h3>
+                    Truyện Hot
+                </h3>
+            </div>
+            <div class="sidebar-content">
+                
+            <!-- RANKING 1-->
+                <div class="rating">
+                    <div class="ranking-number1">
+                        <span class="number">1</span>
                     </div>
-                    <hr style="margin: 0;">
-                <!-- RANKING -->
-                <div class="rating" style="padding: 10px 0 10px 0; display: flex;">
-                    <div style="width: 40px !important; height: 40px !important; margin: 5px; background-color: rgb(33, 150, 243); border-radius: 100%; display: flex; justify-content: center; align-items: center;">
-                        <span style="font-size: 1.4rem; color: whitesmoke; width: 40px !important; height: 40px !important; display: flex; justify-content: center; align-items: center;">2</span>
-                    </div>
-                    <div class="rating__tittle">
-                        <a href="#" style="font-weight: bold; white-space: nowrap;">Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy</a><br>
-                        <a href="#" style="font-size: 0.8rem; color: gray;">Ngôn Tình</a>
+                    <div class="rating__title">
+                        <a href="#">Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy</a><br>
+                        <a href="#">Ngôn Tình</a>
                     </div>
                 </div>
                 <hr style="margin: 0;">
-                <!-- RANKING -->
-                <div class="rating" style="padding: 10px 0 10px 0; display: flex;">
-                    <div style="width: 40px !important; height: 40px !important; margin: 5px; background-color: rgb(76, 175, 80); border-radius: 100%; display: flex; justify-content: center; align-items: center;">
-                        <span style="font-size: 1.4rem; color: whitesmoke; width: 40px !important; height: 40px !important; display: flex; justify-content: center; align-items: center;">3</span>
+            <!-- RANKING 2-->
+                <div class="rating">
+                    <div class="ranking-number2">
+                        <span class="number">2</span>
                     </div>
-                    <div class="rating__tittle">
-                        <a href="#" style="font-weight: bold; white-space: nowrap;">Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy</a><br>
-                        <a href="#" style="font-size: 0.8rem; color: gray;">Ngôn Tình</a>
-                    </div>
-                </div>
-                <hr style="margin: 0;">
-                <!-- RANKING -->
-                <div class="rating" style="padding: 10px 0 10px 0; display: flex;">
-                    <div style="width: 40px !important; height: 40px !important; margin: 5px; border: 1px solid gray; border-radius: 100%; display: flex; justify-content: center; align-items: center;">
-                        <span style="font-size: 1.4rem; color: gray; width: 40px !important; height: 40px !important; display: flex; justify-content: center; align-items: center;">4</span>
-                    </div>
-                    <div class="rating__tittle">
-                        <a href="#" style="font-weight: bold; white-space: nowrap;">Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy</a><br>
-                        <a href="#" style="font-size: 0.8rem; color: gray;">Ngôn Tình</a>
+                    <div class="rating__title">
+                        <a href="#">Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy</a><br>
+                        <a href="#">Ngôn Tình</a>
                     </div>
                 </div>
                 <hr style="margin: 0;">
-                <!-- RANKING -->
-                <div class="rating" style="padding: 10px 0 10px 0; display: flex;">
-                    <div style="width: 40px !important; height: 40px !important; margin: 5px; border: 1px solid gray; border-radius: 100%; display: flex; justify-content: center; align-items: center;">
-                        <span style="font-size: 1.4rem; color: gray; width: 40px !important; height: 40px !important; display: flex; justify-content: center; align-items: center;">5</span>
+            <!-- RANKING 3-->
+                <div class="rating">
+                    <div class="ranking-number3">
+                        <span class="number">3</span>
                     </div>
-                    <div class="rating__tittle">
-                        <a href="#" style="font-weight: bold; white-space: nowrap;">Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy</a><br>
-                        <a href="#" style="font-size: 0.8rem; color: gray;">Ngôn Tình</a>
-                    </div>
-                </div>
-                <hr style="margin: 0;">
-                <!-- RANKING -->
-                <div class="rating" style="padding: 10px 0 10px 0; display: flex;">
-                    <div style="width: 40px !important; height: 40px !important; margin: 5px; border: 1px solid gray; border-radius: 100%; display: flex; justify-content: center; align-items: center;">
-                        <span style="font-size: 1.4rem; color: gray; width: 40px !important; height: 40px !important; display: flex; justify-content: center; align-items: center;">6</span>
-                    </div>
-                    <div class="rating__tittle">
-                        <a href="#" style="font-weight: bold; white-space: nowrap;">Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy</a><br>
-                        <a href="#" style="font-size: 0.8rem; color: gray;">Ngôn Tình</a>
+                    <div class="rating__title">
+                        <a href="#">Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy</a><br>
+                        <a href="#">Ngôn Tình</a>
                     </div>
                 </div>
                 <hr style="margin: 0;">
-                <!-- RANKING -->
-                <div class="rating" style="padding: 10px 0 10px 0; display: flex;">
-                    <div style="width: 40px !important; height: 40px !important; margin: 5px; border: 1px solid gray; border-radius: 100%; display: flex; justify-content: center; align-items: center;">
-                        <span style="font-size: 1.4rem; color: gray; width: 40px !important; height: 40px !important; display: flex; justify-content: center; align-items: center;">7</span>
+            <!-- RANKING next-->
+                <div class="rating">
+                    <div class="ranking-number-next">
+                        <span class="number">4</span>
                     </div>
-                    <div class="rating__tittle">
-                        <a href="#" style="font-weight: bold; white-space: nowrap;">Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy</a><br>
-                        <a href="#" style="font-size: 0.8rem; color: gray;">Ngôn Tình</a>
-                    </div>
-                </div>
-                <hr style="margin: 0;">
-                <!-- RANKING -->
-                <div class="rating" style="padding: 10px 0 10px 0; display: flex;">
-                    <div style="width: 40px !important; height: 40px !important; margin: 5px; border: 1px solid gray; border-radius: 100%; display: flex; justify-content: center; align-items: center;">
-                        <span style="font-size: 1.4rem; color: gray; width: 40px !important; height: 40px !important; display: flex; justify-content: center; align-items: center;">8</span>
-                    </div>
-                    <div class="rating__tittle">
-                        <a href="#" style="font-weight: bold; white-space: nowrap;">Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy</a><br>
-                        <a href="#" style="font-size: 0.8rem; color: gray;">Ngôn Tình</a>
+                    <div class="rating__title">
+                        <a href="#">Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy</a><br>
+                        <a href="#">Ngôn Tình</a>
                     </div>
                 </div>
                 <hr style="margin: 0;">
-                <!-- RANKING -->
-                <div class="rating" style="padding: 10px 0 10px 0; display: flex;">
-                    <div style="width: 40px !important; height: 40px !important; margin: 5px; border: 1px solid gray; border-radius: 100%; display: flex; justify-content: center; align-items: center;">
-                        <span style="font-size: 1.4rem; color: gray; width: 40px !important; height: 40px !important; display: flex; justify-content: center; align-items: center;">9</span>
+            <!-- RANKING -->
+                <div class="rating">
+                    <div class="ranking-number-next">
+                        <span class="number">5</span>
                     </div>
-                    <div class="rating__tittle">
-                        <a href="#" style="font-weight: bold; white-space: nowrap;">Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy</a><br>
-                        <a href="#" style="font-size: 0.8rem; color: gray;">Ngôn Tình</a>
-                    </div>
-                </div>
-                <hr style="margin: 0;">
-                <!-- RANKING -->
-                <div class="rating" style="padding: 10px 0 10px 0; display: flex;">
-                    <div style="width: 40px !important; height: 40px !important; margin: 5px; border: 1px solid gray; border-radius: 100%; display: flex; justify-content: center; align-items: center;">
-                        <span style="font-size: 1.4rem; color: gray; width: 40px !important; height: 40px !important; display: flex; justify-content: center; align-items: center;">10</span>
-                    </div>
-                    <div class="rating__tittle">
-                        <a href="#" style="font-weight: bold; white-space: nowrap;">Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy</a><br>
-                        <a href="#" style="font-size: 0.8rem; color: gray;">Ngôn Tình</a>
+                    <div class="rating__title">
+                        <a href="#">Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy</a><br>
+                        <a href="#">Ngôn Tình</a>
                     </div>
                 </div>
                 <hr style="margin: 0;">
-                <div class="seemore text-right">
+            <!-- RANKING -->
+                <div class="rating">
+                    <div class="ranking-number-next">
+                        <span class="number">6</span>
+                    </div>
+                    <div class="rating__title">
+                        <a href="#">Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy</a><br>
+                        <a href="#">Ngôn Tình</a>
+                    </div>
+                </div>
+                <hr style="margin: 0;">
+            <!-- RANKING -->
+                <div class="rating">
+                    <div class="ranking-number-next">
+                        <span class="number">7</span>
+                    </div>
+                    <div class="rating__title">
+                        <a href="#">Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy</a><br>
+                        <a href="#">Ngôn Tình</a>
+                    </div>
+                </div>
+                <hr style="margin: 0;">
+            <!-- RANKING -->
+                <div class="rating">
+                    <div class="ranking-number-next">
+                        <span class="number">8</span>
+                    </div>
+                    <div class="rating__title">
+                        <a href="#">Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy</a><br>
+                        <a href="#">Ngôn Tình</a>
+                    </div>
+                </div>
+                <hr style="margin: 0;">
+            <!-- RANKING -->
+                <div class="rating">
+                    <div class="ranking-number-next">
+                        <span class="number">9</span>
+                    </div>
+                    <div class="rating__title">
+                        <a href="#">Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy</a><br>
+                        <a href="#">Ngôn Tình</a>
+                    </div>
+                </div>
+                <hr style="margin: 0;">
+            <!-- RANKING -->
+                <div class="rating">
+                    <div class="ranking-number-next">
+                        <span class="number">10</span>
+                    </div>
+                    <div class="rating__title">
+                        <a href="#">Bẫy Hôn Nhân: Vợ Trước Ôm Con Chạy</a><br>
+                        <a href="#">Ngôn Tình</a>
+                    </div>
+                </div>
+                <hr style="margin: 0;">
+            <!-- SEEMORE -->
+                <div class="seemore">
                     <br>
                     <i class="fas fa-sort-down" style="color: gray; margin-bottom: 5px;"></i>
                     <a href="#">Xem Thêm</a>
                 </div>
                 <br>
-                </div>
-            </div>
-<!-- TRUYỆN MỚI ĐĂNG -->
-            <div class="row">
-                <div class="col-md-12" style="margin: 0 0 10px 10px; background-color: white;">
-                    <label style="color: rgb(66, 103, 178); font-size: 1.3rem; font-weight: bold;">Truyện Mới Đăng</label> <span>></span>
-                    <!-- RANKING -->
-                    <div class="rating" style="padding: 10px 0 10px 0; display: flex;">
-                        <div style="width: 40px !important; height: 40px !important; margin: 5px; border: 1px solid gray; border-radius: 100%; display: flex; justify-content: center; align-items: center;">
-                            <span style="font-size: 1rem; color: gray; width: 40px !important; height: 40px !important; display: flex; justify-content: center; align-items: center;">New</span>
-                        </div>
-                        <div class="rating__tittle">
-                            <a href="#" style="font-weight: bold; white-space: nowrap;">Kiệt Xuất Trong Giới Ăn Vạ</a><br>
-                            <a href="#" style="font-size: 0.8rem; color: gray;">Sủng, Đam Mỹ</a>
-                        </div>
-                    </div>
-                    <hr style="margin: 0;">
-                     <!-- RANKING -->
-                     <div class="rating" style="padding: 10px 0 10px 0; display: flex;">
-                        <div style="width: 40px !important; height: 40px !important; margin: 5px; border: 1px solid gray; border-radius: 100%; display: flex; justify-content: center; align-items: center;">
-                            <span style="font-size: 1rem; color: gray; width: 40px !important; height: 40px !important; display: flex; justify-content: center; align-items: center;">New</span>
-                        </div>
-                        <div class="rating__tittle">
-                            <a href="#" style="font-weight: bold; white-space: nowrap;">Kiệt Xuất Trong Giới Ăn Vạ</a><br>
-                            <a href="#" style="font-size: 0.8rem; color: gray;">Sủng, Đam Mỹ</a>
-                        </div>
-                    </div>
-                    <hr style="margin: 0;">
-                     <!-- RANKING -->
-                     <div class="rating" style="padding: 10px 0 10px 0; display: flex;">
-                        <div style="width: 40px !important; height: 40px !important; margin: 5px; border: 1px solid gray; border-radius: 100%; display: flex; justify-content: center; align-items: center;">
-                            <span style="font-size: 1rem; color: gray; width: 40px !important; height: 40px !important; display: flex; justify-content: center; align-items: center;">New</span>
-                        </div>
-                        <div class="rating__tittle">
-                            <a href="#" style="font-weight: bold; white-space: nowrap;">Kiệt Xuất Trong Giới Ăn Vạ</a><br>
-                            <a href="#" style="font-size: 0.8rem; color: gray;">Sủng, Đam Mỹ</a>
-                        </div>
-                    </div>
-                    <hr style="margin: 0;">
-                     <!-- RANKING -->
-                     <div class="rating" style="padding: 10px 0 10px 0; display: flex;">
-                        <div style="width: 40px !important; height: 40px !important; margin: 5px; border: 1px solid gray; border-radius: 100%; display: flex; justify-content: center; align-items: center;">
-                            <span style="font-size: 1rem; color: gray; width: 40px !important; height: 40px !important; display: flex; justify-content: center; align-items: center;">New</span>
-                        </div>
-                        <div class="rating__tittle">
-                            <a href="#" style="font-weight: bold; white-space: nowrap;">Kiệt Xuất Trong Giới Ăn Vạ</a><br>
-                            <a href="#" style="font-size: 0.8rem; color: gray;">Sủng, Đam Mỹ</a>
-                        </div>
-                    </div>
-                    <hr style="margin: 0;">
-                     <!-- RANKING -->
-                     <div class="rating" style="padding: 10px 0 10px 0; display: flex;">
-                        <div style="width: 40px !important; height: 40px !important; margin: 5px; border: 1px solid gray; border-radius: 100%; display: flex; justify-content: center; align-items: center;">
-                            <span style="font-size: 1rem; color: gray; width: 40px !important; height: 40px !important; display: flex; justify-content: center; align-items: center;">New</span>
-                        </div>
-                        <div class="rating__tittle">
-                            <a href="#" style="font-weight: bold; white-space: nowrap;">Kiệt Xuất Trong Giới Ăn Vạ</a><br>
-                            <a href="#" style="font-size: 0.8rem; color: gray;">Sủng, Đam Mỹ</a>
-                        </div>
-                    </div>
-                    <hr style="margin: 0;">
-                    <div class="seemore text-right">
-                        <br>
-                        <i class="fas fa-sort-down" style="color: gray; margin-bottom: 5px;"></i>
-                        <a href="#">Xem Thêm</a>
-                    </div>
-                    <br>
-                </div>
-            </div>
-<!-- SIDEBAR-TAGS -->
-            <div class="row">
-                <div class="col-md-12" style="margin: 0 0 10px 10px;">
-                    <div class="row">
-                        <!-- FIRST -->
-                        <div class="col-md-6 col-sm-6" style="padding: 0; display: flex; justify-content: center; align-items: center;">
-                            <a href="#" style="background-color: white; color: rgb(222, 47, 27); padding: 5px 15px; margin: 5px;">Tiên Hiệp</a>
-                        </div>
-                        <div class="col-md-6 col-sm-6" style="padding: 0; display: flex; justify-content: center; align-items: center;">
-                            <a href="#" style="background-color: white; color: rgb(222, 47, 27); padding: 5px 15px; margin: 5px;">Tiên Hiệp</a>
-                        </div>
-                        <div class="col-md-6 col-sm-6" style="padding: 0; display: flex; justify-content: center; align-items: center;">
-                            <a href="#" style="background-color: white; color: rgb(222, 47, 27); padding: 5px 15px; margin: 5px;">Tiên Hiệp</a>
-                        </div>
-                        <div class="col-md-6 col-sm-6" style="padding: 0; display: flex; justify-content: center; align-items: center;">
-                            <a href="#" style="background-color: white; color: rgb(222, 47, 27); padding: 5px 15px; margin: 5px;">Tiên Hiệp</a>
-                        </div>
-                        <div class="col-md-6 col-sm-6" style="padding: 0; display: flex; justify-content: center; align-items: center;">
-                            <a href="#" style="background-color: white; color: rgb(222, 47, 27); padding: 5px 15px; margin: 5px;">Tiên Hiệp</a>
-                        </div>
-                        <div class="col-md-6 col-sm-6" style="padding: 0; display: flex; justify-content: center; align-items: center;">
-                            <a href="#" style="background-color: white; color: rgb(222, 47, 27); padding: 5px 15px; margin: 5px;">Tiên Hiệp</a>
-                        </div>
-                        <!-- SECOND -->
-                        <div class="col-md-6 col-sm-6" style="padding: 0; display: flex; justify-content: center; align-items: center;">
-                            <a href="#" style="background-color: white; color: black; padding: 5px 15px; margin: 5px;">Truyện Sủng</a>
-                        </div>
-                        <div class="col-md-6 col-sm-6" style="padding: 0; display: flex; justify-content: center; align-items: center;">
-                            <a href="#" style="background-color: white; color: black; padding: 5px 15px; margin: 5px;">Truyện Sủng</a>
-                        </div>
-                        <div class="col-md-6 col-sm-6" style="padding: 0; display: flex; justify-content: center; align-items: center;">
-                            <a href="#" style="background-color: white; color: black; padding: 5px 15px; margin: 5px;">Truyện Sủng</a>
-                        </div>
-                        <div class="col-md-6 col-sm-6" style="padding: 0; display: flex; justify-content: center; align-items: center;">
-                            <a href="#" style="background-color: white; color: black; padding: 5px 15px; margin: 5px;">Truyện Sủng</a>
-                        </div>
-                        <!-- THIRD -->
-                        <div class="col-md-6 col-sm-6" style="padding: 0; display: flex; justify-content: center; align-items: center;">
-                            <a href="#" style="background-color: white; color: gray; padding: 5px 15px; margin: 5px;">Kiếm Hiệp</a>
-                        </div>
-                        <div class="col-md-6 col-sm-6" style="padding: 0; display: flex; justify-content: center; align-items: center;">
-                            <a href="#" style="background-color: white; color: gray; padding: 5px 15px; margin: 5px;">Kiếm Hiệp</a>
-                        </div>
-                        <div class="col-md-6 col-sm-6" style="padding: 0; display: flex; justify-content: center; align-items: center;">
-                            <a href="#" style="background-color: white; color: gray; padding: 5px 15px; margin: 5px;">Kiếm Hiệp</a>
-                        </div>
-                        <div class="col-md-6 col-sm-6" style="padding: 0; display: flex; justify-content: center; align-items: center;">
-                            <a href="#" style="background-color: white; color: gray; padding: 5px 15px; margin: 5px;">Kiếm Hiệp</a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
+<!-- TRUYỆN MỚI ĐĂNG -->
+        <div class="w3-col s12 m12 l12 sidebar-module sidebar-new">
+            <div class="w3-row sidebar-title">
+                <h3>
+                    Ý Kiến Bạn Đọc
+                </h3>
+            </div>
+            <div class="sidebar-content">
+                <!-- RANKING -new -->
+                <div class="rating">
+                    <div class="ranking-number-new">
+                        <span class="number-new">New</span>
+                    </div>
+                    <div class="rating__title">
+                        <a href="#">Kiệt Xuất Trong Giới Ăn Vạ</a><br>
+                        <a href="#">Sủng, Đam Mỹ</a>
+                    </div>
+                </div>
+                <hr style="margin: 0;">
+                <!-- RANKING -new -->
+                <div class="rating">
+                    <div class="ranking-number-new">
+                        <span class="number-new">New</span>
+                    </div>
+                    <div class="rating__title">
+                        <a href="#">Kiệt Xuất Trong Giới Ăn Vạ</a><br>
+                        <a href="#">Sủng, Đam Mỹ</a>
+                    </div>
+                </div>
+                <hr style="margin: 0;">
+                <!-- RANKING -new -->
+                <div class="rating">
+                    <div class="ranking-number-new">
+                        <span class="number-new">New</span>
+                    </div>
+                    <div class="rating__title">
+                        <a href="#">Kiệt Xuất Trong Giới Ăn Vạ</a><br>
+                        <a href="#">Sủng, Đam Mỹ</a>
+                    </div>
+                </div>
+                <hr style="margin: 0;">
+                <!-- RANKING -new -->
+                <div class="rating">
+                    <div class="ranking-number-new">
+                        <span class="number-new">New</span>
+                    </div>
+                    <div class="rating__title">
+                        <a href="#">Kiệt Xuất Trong Giới Ăn Vạ</a><br>
+                        <a href="#">Sủng, Đam Mỹ</a>
+                    </div>
+                </div>
+                <hr style="margin: 0;">
+                <!-- RANKING -new -->
+                <div class="rating">
+                    <div class="ranking-number-new">
+                        <span class="number-new">New</span>
+                    </div>
+                    <div class="rating__title">
+                        <a href="#">Kiệt Xuất Trong Giới Ăn Vạ</a><br>
+                        <a href="#">Sủng, Đam Mỹ</a>
+                    </div>
+                </div>
+                <hr style="margin: 0;">
+                <div class="seemore">
+                    <br>
+                    <i class="fas fa-sort-down" style="color: gray; margin-bottom: 5px;"></i>
+                    <a href="#">Xem Thêm</a>
+                </div>
+                <br>
+            </div>
+        </div>
+<!-- SIDEBAR-TAGS -->
+        <div class="w3-col s12 m12 l12 sidebar-tags">
+            <div class="w3-row">
+                <div class="w3-col s6 m6 l6">
+                    <a href="#" class="w3-text-red" title="Truyện Tiên Hiệp">Tiên Hiệp</a>
+                </div>
+                <div class="w3-col s6 m6 l6">
+                    <a href="#" class="w3-text-red" title="Truyện Tiên Hiệp">Tiên Hiệp</a>
+                </div>
+                <div class="w3-col s6 m6 l6">
+                    <a href="#" class="w3-text-red" title="Truyện Tiên Hiệp">Tiên Hiệp</a>
+                </div>
+                <div class="w3-col s6 m6 l6">
+                    <a href="#" class="w3-text-red" title="Truyện Tiên Hiệp">Tiên Hiệp</a>
+                </div>
+                <div class="w3-col s6 m6 l6">
+                    <a href="#" class="w3-text-red" title="Truyện Tiên Hiệp">Tiên Hiệp</a>
+                </div>
+                <div class="w3-col s6 m6 l6">
+                    <a href="#" class="w3-text-red" title="Truyện Tiên Hiệp">Tiên Hiệp</a>
+                </div>
+                <div class="w3-col s6 m6 l6">
+                    <a href="#" class="w3-text-black" title="Truyện Tiên Hiệp">Tiên Hiệp</a>
+                </div>
+                <div class="w3-col s6 m6 l6">
+                    <a href="#" class="w3-text-black" title="Truyện Tiên Hiệp">Tiên Hiệp</a>
+                </div>
+                <div class="w3-col s6 m6 l6">
+                    <a href="#" class="w3-text-black" title="Truyện Tiên Hiệp">Tiên Hiệp</a>
+                </div>
+                <div class="w3-col s6 m6 l6">
+                    <a href="#" class="w3-text-black" title="Truyện Tiên Hiệp">Tiên Hiệp</a>
+                </div>
+                <div class="w3-col s6 m6 l6">
+                    <a href="#" title="Truyện Tiên Hiệp">Tiên Hiệp</a>
+                </div>
+                <div class="w3-col s6 m6 l6">
+                    <a href="#" title="Truyện Tiên Hiệp">Tiên Hiệp</a>
+                </div>
+                <div class="w3-col s6 m6 l6">
+                    <a href="#" title="Truyện Tiên Hiệp">Tiên Hiệp</a>
+                </div>
+                <div class="w3-col s6 m6 l6">
+                    <a href="#" title="Truyện Tiên Hiệp">Tiên Hiệp</a>
+                </div>
+                <div class="w3-col s6 m6 l6">
+                    <a href="#" title="Truyện Tiên Hiệp">Tiên Hiệp</a>
+                </div>
+                <div class="w3-col s6 m6 l6">
+                    <a href="#" title="Truyện Tiên Hiệp">Tiên Hiệp</a>
+                </div>
+                <div class="w3-col s6 m6 l6">
+                    <a href="#" title="Truyện Tiên Hiệp">Tiên Hiệp</a>
+                </div>
+            </div>
         </div>
     </div>
-</div>
+</div>  
 <br>
 <!-- FOOTER -->
 <div class="container-fluid" style="background-color: rgb(37, 37, 61);">

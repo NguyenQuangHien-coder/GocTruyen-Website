@@ -1,0 +1,640 @@
+/* TRUYỆN ĐỌC NHIỀU NHẤT */
+/* THẦN ĐẾ */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+body
+{
+    font-size: 15px;
+}
+.container {
+    width: 75% !important;
+    margin: 0 auto !important;
+    padding: 0 2px !important;
+}
+.col
+{
+    float: left;
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+.main-title h1, .main-title h2 {
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: -2px;
+    border-bottom: 2px solid #4267b2;
+    position: relative;
+}
+.main-title a {
+    color: #3b5998;
+    text-decoration: none;
+}
+.main-content {
+    padding: 6px;
+}
+.sidebar-module {
+    background: #fff;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4, h
+/* HEADER --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#header {
+    background: #fff;
+    margin-bottom: 10px;
+}
+.header-top {
+    width: 75%;
+    margin: 0 auto;
+}
+a.logo {
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+    padding-top: 35px;
+    z-index: 1;
+    color: #ff4500;
+    font-weight: 600;
+    background: url(https://goctruyen.com/public/frontend/img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.header-top>div {
+    padding: 10px;
+}
+/* FORM SEARCH */
+.search-bar {
+    white-space: nowrap;
+}
+.search-bar form {
+    position: relative;
+}
+.search-input {
+    width: 85%;
+    height: 35px;
+    font-size: 15px;
+    padding: 5px 10px;
+    border: 1px solid #f1f1f1;
+    display: inline-block;
+    vertical-align: middle;
+}
+.search-button {
+    background: #f1f1f1;
+    color: #444;
+    width: 15%;
+    height: 35px;
+    font-size: 16px;
+    padding: 1px 12px;
+    position: relative;
+}
+.icsearch {
+    color: #000;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border: solid 1px currentColor;
+    border-radius: 100%;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/* STORY */
+.story 
+{
+    padding: 6px;
+    position: relative;
+}
+/* HOTSTORY */
+.hotStory
+{
+    padding: 10px;
+    border: 1px solid #ddd;
+    position: relative;
+}
+.hotStory .story-thumb
+{
+    float: left;
+    margin-right: 15px;
+    position: relative;
+}
+/* INFO */
+.hotStory .info
+{
+    margin-left: 128px;
+    margin-right: 46px;
+    box-sizing: border-box;
+}
+.hotStory .info p
+{
+    font-size: 11px;
+    margin: 0;
+}
+/* BUTTON-READNOW */
+.hotStory .info .read-now
+{
+    padding: 6px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    color: #fff;
+    background-color: #de2f1b;
+    cursor: pointer;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 10px;
+    left: 138px;
+}
+.hotStory .info .tittle
+{
+    font-size: 16px;
+    line-height: 1.3;
+    margin-bottom: 8px;
+}
+/* META */
+.hotStory .meta
+{
+    position: absolute;
+    right: 0;
+    width: 46px;
+    background: #3b5998;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 11px;
+}
+.hotStory .meta p
+{
+    height: 33.33334%;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    margin: 0;
+}
+.hotStory .meta p:first-child {
+    background: #de2f1b;
+}
+.hotStory::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* ICON */
+.icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(https://goctruyen.com/public/frontend/img/icons.png);
+    background-repeat: no-repeat;
+}
+.icon-vip {
+    background-position: 0 0;
+}
+.icon-eye {
+    background-position: 0 -20px;
+}
+.icon-star {
+    background-position: 0 -40px;
+}
+.hotStory .meta p .icon {
+    margin-top: 10px;
+}
+.hotStory .meta p span {
+    display: block;
+    font-weight: 400;
+}
+/* TRUYEN VIP MOI -----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.story2 {
+    padding: 6px;
+}
+.story2-inside {
+    margin-top: 25px;
+    position: relative;
+    background: #f5f5f5;
+}
+.story2 .story-thumb {
+    float: left;
+    width: 113px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -25px;
+    float: left;
+    height: 157px;
+    position: relative;
+}
+.story2 .story-thumb:before {
+    background-image: url(https://goctruyen.com/public/frontend/img/page-overlay-small.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.story2 .story-thumb .bookmark {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    background: #de2f1b;
+    right: 10px;
+    font-size: 10px;
+    width: 30px;
+    padding-top: 5px;
+    top: 9px;
+}
+.story2 .story-thumb .bookmark:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-top: 15px solid #de2f1b;
+    left: 0;
+    bottom: -30px;
+}
+.story2 .story-thumb img {
+    border-bottom-left-radius: 4px;
+    max-width: 100%;
+    box-shadow: 0 2px 3px rgba(0,0,0,.2);
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 6px;
+}
+.story2 .info
+{
+    margin-left: 123px;
+    padding-right: 10px;
+}
+.story2 .title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    background-color: #f5f5f5;
+}
+.story2 .info p {
+    margin: 5px;
+    font-size: 13px;
+}
+.story2 .info p a {
+    color: #3b5998;
+}
+.story2 .info:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.story2 footer span {
+    float: right;
+}
+.story2 footer {
+    padding: 5px 10px;
+    font-size: 12px;
+    background: #eee;
+    margin-top: 5px;
+    line-height: 30px;
+}
+.story2 .read-now {
+    padding: 0 10px;
+    font-size: 13px;
+    line-height: 30px;
+    vertical-align: middle;
+    overflow: hidden;
+    color: #fff;
+    background-color: #de2f1b;
+    cursor: pointer;
+    white-space: nowrap;
+    float: right;
+}
+/* TRUYEN HOT TRONG NGAY --------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.main-title {
+    height: 40px;
+    margin: 0 12px;
+    position: relative;
+    color: #3b5998;
+}
+.main-module
+{
+    background-color: #fff;
+}
+.main-title h2:after{
+    content: '';
+    position: absolute;
+    right: -15px;
+    top: 3px;
+    bottom: 0;
+    margin: auto;
+    width: 8px;
+    height: 8px;
+    border-bottom: solid 1px currentColor;
+    border-right: solid 1px currentColor;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.w3-container
+{
+    padding: .01em 16px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+.hotdate .row>div {
+    height: 40px;
+    line-height: 40px;
+    border-left: 1px dashed #ccc;
+    border-bottom: 1px dashed #ccc;
+    overflow: hidden;
+}
+.hotdate .row
+{
+    border: 0;
+    padding: 0;
+    height: 40px;
+}
+.hotdate .row>div:first-child {
+    border-left: 0;
+    padding-left: 0;
+}
+.hotdate h3 {
+    display: inline;
+    font-size: 16px;
+    position: relative;
+    padding-left: 15px;
+}
+.hotdate h3:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 5px;
+    margin: auto;
+    width: 5px;
+    height: 5px;
+    border-bottom: solid 1px currentColor;
+    border-right: solid 1px currentColor;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.iconfull:before {
+    content: "Full";
+    border: 1px solid #86ad86;
+    color: #86ad86;
+    padding: 1px 3px;
+    font-size: 13px;
+    vertical-align: bottom;
+    margin-left: 5px;
+    font-style: normal;
+    font-weight: 500;
+}
+.iconvip:before {
+    content: "VIP";
+    border: 1px solid #fd8383;
+    color: #fd8383;
+    padding: 1px 3px;
+    font-size: 13px;
+    vertical-align: bottom;
+    margin-left: 5px;
+    font-style: normal;
+    font-weight: 500;
+}
+/* Y KIEN BAN DOC ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.sidebar-title h3{
+    height: 35px;
+    line-height: 35px;
+    color: #3b5998;
+    margin: 0;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    border-bottom: 2px solid #4267b2;
+    text-transform: capitalize;
+    position: relative;
+}
+.sidebar-title h3:after{
+    content: '';
+    position: absolute;
+    right: -15px;
+    top: 3px;
+    bottom: 0;
+    margin: auto;
+    width: 8px;
+    height: 8px;
+    border-bottom: solid 1px currentColor;
+    border-right: solid 1px currentColor;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+/* TRUYEN HOT --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.rating
+{
+    padding: 10px 0 10px 0; 
+    display: flex;
+}
+.sidebar-content {
+    margin: 0 12px;
+}
+.sidebar-title
+{
+    margin: 0 12px;
+}
+.rating .rating__title a:nth-child(1)
+{
+    font-weight: bold;
+    white-space: nowrap; 
+    font-size: 0.9rem;
+}
+.rating .rating__title a:nth-child(2)
+{
+    font-size: 0.8rem; 
+    color: gray;
+}
+.ranking-number1
+{
+    width: 40px !important; 
+    height: 40px !important; margin: 
+    5px; background-color: rgb(244, 67, 54); 
+    border-radius: 100%; display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.ranking-number2
+{
+    width: 40px !important; 
+    height: 40px !important; margin: 
+    5px; background-color: rgb(33, 150, 243); 
+    border-radius: 100%; display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.ranking-number3
+{
+    width: 40px !important; 
+    height: 40px !important; margin: 
+    5px; background-color: rgb(76, 175, 80); 
+    border-radius: 100%; display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.ranking-number-next
+{
+    width: 40px !important; 
+    height: 40px !important; margin: 
+    5px; background-color: gray; 
+    border-radius: 100%; display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.rating .number
+{
+    font-size: 1.4rem; 
+    color: whitesmoke; 
+    width: 40px !important; 
+    height: 40px !important; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.seemore
+{
+    text-align: right;
+}
+/* TRUYEN MOI DANG */
+.ranking-number-new
+{
+    width: 40px !important; 
+    height: 40px !important; 
+    margin: 5px; 
+    background-color: transparent; 
+    border: 1px solid gray;
+    border-radius: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.rating .number-new
+{
+    font-size: 1rem; 
+    color: gray; 
+    width: 40px !important; 
+    height: 40px !important; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+/* SIDEBAR-TAGS */
+.sidebar-tags a {
+    color: #757575;
+    line-height: 1.8;
+    background: #fff;
+    padding: 10px;
+    display: block;
+    margin: 8px;
+    border-radius: 4px;
+    text-align: center;
+}
+.sidebar-tags a:hover
+{
+    background: rgb(212, 226, 243);
+}
+/* PAGINATION --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* CHOOSE PAGES */
+/* .w3-center {
+    text-align: center !important;
+}
+.w3-pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.w3-pagination li {
+    display: inline;
+}
+.pagination {
+    margin: 10px 0;
+}
+.paging {
+    border: 1px solid #ddd;
+    border-radius: 35px;
+}
+
+.paging li a {
+    padding: 5px 12px;
+}
+.paging li a.active {
+    background: #ddd;
+    border-radius: 35px;
+}
+.w3-pagination li a {
+    text-decoration: none;
+    color: #000;
+    float: left;
+    padding: 8px 16px;
+}
+
+INSET NUMBER
+
+.pages-input {
+    width: 75px !important;
+    height: 38px;
+    padding: 0 0 0 12px !important;
+    background: #f2f2f2;
+    border: 1px solid #ccc !important;
+    vertical-align: middle;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+} */
+
+.input-group
+{
+    width: 300px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+.custom-select
+{
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+.btn-go
+{
+    background-color: rgb(66, 103, 178); 
+    color: whitesmoke; 
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    width: 60px; 
+    margin-left: 10px;
+}
+/* RESPONSIVE */
+@media (min-width: 1200px)
+{
+    .container 
+    {
+        max-width: 1400px !important;
+    }
+}
